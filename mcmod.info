@@ -1,0 +1,17 @@
+[
+{
+  "modid": "DarkAdaptations",
+  "name" : "Dark Adaptations",
+  "version" : "",
+  "credits" : "Thanks to Darkrising for the inspiration to make mods",
+  "authors": [
+    "Saitek","Darkrising"
+  ],
+  "description": "A Mod That Adds A Darker Side To Minecraft",
+  "url" : "http://www.darkserver.co.uk/",
+    "logoFile": "/assets/darkadaptations/logo/logoFile.png",
+  "parent" : "",
+  "screenshots": [
+  ]
+}
+]
