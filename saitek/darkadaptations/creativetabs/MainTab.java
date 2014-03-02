@@ -1,18 +1,18 @@
 package saitek.darkadaptations.creativetabs;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import saitek.darkadaptations.items.Items;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class MainTab {
-	public static CreativeTabs tabMain = new CreativeTabs("darkrisingmod") {
+	public static CreativeTabs tabMain = new CreativeTabs("darkadaptations") {
         public ItemStack getIconItemStack() {
-        	return new ItemStack(Item.appleGold, 1, 0);
+        	return new ItemStack(Items.darkgreatwand, 1, 0);
         }
 	};
 	
 	public static void initTabNames() {
-		//LanguageRegistry.instance().addStringLocalization("itemGroup.darkrisingmod", "en_US", "Darkrising's Mod");
+		LanguageRegistry.instance().addStringLocalization("itemGroup.darkadaptations", "en_US", "Dark Adaptations");
 	}
 }

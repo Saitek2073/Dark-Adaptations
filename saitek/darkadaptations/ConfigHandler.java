@@ -2,6 +2,7 @@ package saitek.darkadaptations;
 
 import java.io.File;
 
+import saitek.darkadaptations.items.ItemInfo;
 import net.minecraftforge.common.Configuration;
 
 public class ConfigHandler {
@@ -23,6 +24,11 @@ public class ConfigHandler {
 		TileEntityBomb.SPREAD_LEVELS = config.get("bomb", "Bomb Spread Radius", 5).getInt();
 		TileEntityBomb.EXPLOSIVE_POWER = config.get("bomb", "Bomb Explosive Power", 4).getInt();
 		*/
+		
+		//Items
+			ItemInfo.DARKGREATWAND_ID = config.getItem(ItemInfo.DARKGREATWAND_KEY, ItemInfo.DARKGREATWAND_DEFAULT).getInt() - 256;
+			ItemInfo.DARKGREATSWORD_ID = config.getItem(ItemInfo.DARKGREATSWORD_KEY, ItemInfo.DARKGREATSWORD_DEFAULT).getInt() - 256;
+				
 		
 		config.save();
 	}

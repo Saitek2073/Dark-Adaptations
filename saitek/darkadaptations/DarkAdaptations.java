@@ -5,6 +5,7 @@ import saitek.darkadaptations.creativetabs.MainTab;
 import saitek.darkadaptations.items.Items;
 import saitek.darkadaptations.network.PacketHandler;
 import saitek.darkadaptations.proxy.CommonProxy;
+import saitek.worldgen.GenerationHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -45,6 +46,8 @@ public class DarkAdaptations {
 		Blocks.registerRecipes();
 		
 		Blocks.registerTileEntities();
+		
+		new GenerationHandler();
 		
 		//Entities.init();
 	}
