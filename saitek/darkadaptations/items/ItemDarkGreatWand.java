@@ -23,7 +23,7 @@ public class ItemDarkGreatWand extends Item {
 	public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player, EntityLivingBase target) {
 		if (!target.worldObj.isRemote) {
 			target.motionY = 2;
-			target.setFire(1);
+			target.setFire(10);
 		}				
 		return false;
 	}

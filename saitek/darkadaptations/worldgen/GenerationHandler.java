@@ -1,4 +1,4 @@
-package saitek.worldgen;
+package saitek.darkadaptations.worldgen;
 
 import java.util.Random;
 

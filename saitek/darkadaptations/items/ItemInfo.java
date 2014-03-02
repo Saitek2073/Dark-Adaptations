@@ -36,4 +36,20 @@ public class ItemInfo {
 		public static final String DARKGREATSWORD_NAME = "Dark Greatsword";
 		public static final String DARKGREATSWORD_ICON = "DarkGreatsword";
 	
+	//Darkdust
+		public static int DARKDUST_ID;
+		public static final String DARKDUST_KEY = "darkdust";
+		public static final int DARKDUST_DEFAULT = 31053;
+		public static final String DARKDUST_UNLOCALIZED_NAME = "darkdust";
+		public static final String DARKDUST_NAME = "Darkdust";
+		public static final String DARKDUST_ICON = "Darkdust";		
+		
+	//Dark Iron Ingot
+		public static int DARKIRONINGOT_ID;
+		public static final String DARKIRONINGOT_KEY = "darkironingot";
+		public static final int DARKIRONINGOT_DEFAULT = 31054;
+		public static final String DARKIRONINGOT_UNLOCALIZED_NAME = "darkironingot";
+		public static final String DARKIRONINGOT_NAME = "darkironingot";
+		public static final String DARKIRONINGOT_ICON = "DarkIroningot";
+	
 }
