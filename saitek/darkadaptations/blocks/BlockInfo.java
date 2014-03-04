@@ -22,4 +22,16 @@ public class BlockInfo {
 		public static final String DARKGLOWROCK_UNLOCALIZED_NAME = "darkglowrock";
 		public static final String DARKGLOWROCK_NAME = "Dark Glow Rock";
 		public static final String DARKGLOWROCK_TEXTURE = "DarkGlowrock";
+		
+		//Dark Amethyst Ore		
+		
+		public static int DARKAMETHYSTORE_ID;
+		public static final String DARKAMETHYSTORE_KEY = "darkamethystore";
+		public static final int DARKAMETHYSTORE_DEFAULT = 2153;
+		public static final String DARKAMETHYSTORE_UNLOCALIZED_NAME = "Darkamethystore";
+		public static final String DARKAMETHYSTORE_NAME = "Dark Amethyst Ore";
+		public static final String DARKAMETHYSTORE_TEXTURE = "DarkAmethystore";
+		
+		
+		
 }

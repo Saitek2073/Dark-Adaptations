@@ -14,11 +14,13 @@ public class GenerationHandler implements IWorldGenerator {
 	
 	private WorldGenerator DarkIronOre;
 	private WorldGenerator DarkGlowrock;
+	private WorldGenerator DarkAmethystOre;
 	
 	public GenerationHandler() {
 		GameRegistry.registerWorldGenerator(this);
 		DarkIronOre = new WorldGenMinable(BlockInfo.DARKIRONORE_ID, 16);
 		DarkGlowrock = new WorldGenMinable(BlockInfo.DARKGLOWROCK_ID, 16);
+		DarkAmethystOre = new WorldGenMinable(BlockInfo.DARKAMETHYSTORE_ID, 16);
 	}
 	
 	private void generateStandardOre(Random rand, int chunkX, int chunkZ, World world, int iterations, WorldGenerator gen, int lowestY, int highestY){
@@ -37,6 +39,7 @@ public class GenerationHandler implements IWorldGenerator {
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
 		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkIronOre, 0, 128);
 		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkGlowrock, 0, 128);
+		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkAmethystOre, 0, 128);
 	
 	}
 

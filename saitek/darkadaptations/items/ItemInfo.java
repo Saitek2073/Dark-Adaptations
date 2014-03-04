@@ -44,11 +44,19 @@ public class ItemInfo {
 		public static final String DARKGREATSWORD_UNLOCALIZED_NAME = "darkgreatsword";
 		public static final String DARKGREATSWORD_NAME = "Dark Greatsword";
 		public static final String DARKGREATSWORD_ICON = "DarkGreatsword";
+		
+	//Dark Amethyst
+		public static int DARKAMETHYST_ID;
+		public static final String DARKAMETHYST_KEY = "darkamethyst";
+		public static final int DARKAMETHYST_DEFAULT = 31053;
+		public static final String DARKAMETHYST_UNLOCALIZED_NAME = "darkamethyst";
+		public static final String DARKAMETHYST_NAME = "Dark Amethyst";
+		public static final String DARKAMETHYST_ICON = "Darkamethyst";		
 	
 	//Darkdust
 		public static int DARKDUST_ID;
 		public static final String DARKDUST_KEY = "darkdust";
-		public static final int DARKDUST_DEFAULT = 31053;
+		public static final int DARKDUST_DEFAULT = 31059;
 		public static final String DARKDUST_UNLOCALIZED_NAME = "darkdust";
 		public static final String DARKDUST_NAME = "Darkdust";
 		public static final String DARKDUST_ICON = "Darkdust";		
@@ -76,5 +84,16 @@ public class ItemInfo {
 		public static final String DARKSWORD_UNLOCALIZED_NAME = "darksword";
 		public static final String DARKSWORD_NAME = "Dark Sword";
 		public static final String DARKSWORD_ICON = "Darksword";
+		
+	//Dark Pickaxe
+		public static int DARKPICKAXE_ID;
+		public static final String DARKPICKAXE_KEY = "darkpickaxe";
+		public static final int DARKPICKAXE_DEFAULT = 31060;
+		public static final String DARKPICKAXE_UNLOCALIZED_NAME = "darkpickaxe";
+		public static final String DARKPICKAXE_NAME = "Dark Pickaxe";
+		public static final String DARKPICKAXE_ICON = "Darkpickaxe";
+		
+		
+		
 	
 }

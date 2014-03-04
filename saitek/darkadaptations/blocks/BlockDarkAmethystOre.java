@@ -14,16 +14,16 @@ import saitek.darkadaptations.items.Items;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class BlockDarkGlowrock extends Block {
+public class BlockDarkAmethystOre extends Block {
 	
-	public BlockDarkGlowrock(int id) {
-		super(id, Material.glass);
-		setCreativeTab(MainTab.tabMain);
-		setLightValue(0.9F);
-		setHardness(0.3F);
-		setResistance(5F);
-		setStepSound(Block.soundGlassFootstep);
-		setUnlocalizedName(BlockInfo.DARKGLOWROCK_UNLOCALIZED_NAME);
+	public BlockDarkAmethystOre(int id) {
+	    super(id, Material.rock);
+	    setCreativeTab(MainTab.tabMain);
+	    setLightValue(0.4F);
+	    setHardness(4F);
+	    setResistance(5F);
+	    setStepSound(Block.soundStoneFootstep);
+	    setUnlocalizedName(BlockInfo.DARKAMETHYSTORE_UNLOCALIZED_NAME);			
 	}
 	public interface IBlockInfo {
 
@@ -35,16 +35,22 @@ public class BlockDarkGlowrock extends Block {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister register) {
-		blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOCATION + ":" + BlockInfo.DARKGLOWROCK_TEXTURE);
+		blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOCATION + ":" + BlockInfo.DARKAMETHYSTORE_TEXTURE);
 	}
 	
 	@Override
 	public int idDropped(int par1, Random par2Random, int par3) {
-		return Items.darkdust.itemID;
+		return Items.darkamethyst.itemID;
 	}
 		
 	@Override
 	public int quantityDropped(Random par1Random) {
 		return 2;
 	}
+	
+	
+	
+	
+	
+
 }

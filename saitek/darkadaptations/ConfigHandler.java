@@ -24,10 +24,15 @@ public class ConfigHandler {
 				ItemInfo.DARKIRONINGOT_ID = config.getItem(ItemInfo.DARKIRONINGOT_KEY, ItemInfo.DARKIRONINGOT_DEFAULT).getInt() - 256;
 				ItemInfo.DARKSTICK_ID = config.getItem(ItemInfo.DARKSTICK_KEY, ItemInfo.DARKSTICK_DEFAULT).getInt() - 256;
 				ItemInfo.DARKSWORD_ID = config.getItem(ItemInfo.DARKSWORD_KEY, ItemInfo.DARKSWORD_DEFAULT).getInt() - 256;
+				ItemInfo.DARKAMETHYST_ID = config.getItem(ItemInfo.DARKAMETHYST_KEY, ItemInfo.DARKAMETHYST_DEFAULT).getInt() - 256;
+				ItemInfo.DARKPICKAXE_ID = config.getItem(ItemInfo.DARKPICKAXE_KEY, ItemInfo.DARKPICKAXE_DEFAULT).getInt() - 256;
+				
+				
  		//Blocks
 			BlockInfo.DARKIRONORE_ID = config.getBlock(BlockInfo.DARKIRONORE_KEY, BlockInfo.DARKIRONORE_DEFAULT).getInt();
 			BlockInfo.DARKGLOWROCK_ID = config.getBlock(BlockInfo.DARKGLOWROCK_KEY, BlockInfo.DARKGLOWROCK_DEFAULT).getInt();
-		
+			BlockInfo.DARKAMETHYSTORE_ID = config.getBlock(BlockInfo.DARKAMETHYSTORE_KEY, BlockInfo.DARKAMETHYSTORE_DEFAULT).getInt();
+			
 		config.save();
 	}
 }
