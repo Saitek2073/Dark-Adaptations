@@ -2,26 +2,23 @@ package saitek.darkadaptations.items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumToolMaterial;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemAxe;
 import saitek.darkadaptations.creativetabs.MainTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ItemDarkPickaxe extends  ItemPickaxe {
+public class ItemDarkaxe extends ItemAxe {
 
-	public ItemDarkPickaxe(int id, EnumToolMaterial par2EnumToolMaterial) {
+	public ItemDarkaxe(int id, EnumToolMaterial par2EnumToolMaterial) {
 		super(id, par2EnumToolMaterial);
 		setCreativeTab(MainTab.tabMain);
 		setMaxStackSize(1);
-		setUnlocalizedName(ItemInfo.DARKPICKAXE_UNLOCALIZED_NAME);
+		setUnlocalizedName(ItemInfo.DARKAXE_UNLOCALIZED_NAME);
 	}
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister register) {
-		itemIcon = register.registerIcon(ItemInfo.TEXTURE_LOCATION + ":" + ItemInfo.DARKPICKAXE_ICON);
+		itemIcon = register.registerIcon(ItemInfo.TEXTURE_LOCATION + ":" + ItemInfo.DARKAXE_ICON);
 	}
-	
-	
-	
 
 }

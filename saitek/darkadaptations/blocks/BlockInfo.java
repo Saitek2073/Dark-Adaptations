@@ -33,5 +33,17 @@ public class BlockInfo {
 		public static final String DARKAMETHYSTORE_TEXTURE = "DarkAmethystore";
 		
 		
+		//Dark Block Filler
+		public static int DARKBLOCKFILLER_ID;
+		public static final String DARKBLOCKFILLER_KEY = "darkblockfiller";
+		public static final int DARKBLOCKFILLER_DEFAULT = 2154;
+		public static final String DARKBLOCKFILLER_UNLOCALIZED_NAME = "Darkblockfiller";
+		public static final String DARKBLOCKFILLER_NAME = "Dark Floor Filler";
+		public static final String DARKBLOCKFILLER_TEXTURE = "Darkblockfiller";
+		
+		//Dark Iron Furnace
+		
+		
+		
 		
 }

@@ -31,7 +31,7 @@ public class ItemInfo {
 	//Dark Great Wand
 		public static int DARKGREATWAND_ID;
 		public static final String DARKGREATWAND_KEY = "DarkGreatWand";
-		public static final int DARKGREATWAND_DEFAULT = 31051;
+		public static final int DARKGREATWAND_DEFAULT = 31056;
 		public static final String DARKGREATWAND_UNLOCALIZED_NAME = "darkgreatwand";
 		public static final String DARKGREATWAND_NAME = "Dark Great Wand";
 		public static final String DARKGREATWAND_ICON = "DarkGreatwand";
@@ -40,7 +40,7 @@ public class ItemInfo {
 	//Dark Greatsword
 		public static int DARKGREATSWORD_ID;
 		public static final String DARKGREATSWORD_KEY = "DarkGreatsword";
-		public static final int DARKGREATSWORD_DEFAULT = 31052;
+		public static final int DARKGREATSWORD_DEFAULT = 31057;
 		public static final String DARKGREATSWORD_UNLOCALIZED_NAME = "darkgreatsword";
 		public static final String DARKGREATSWORD_NAME = "Dark Greatsword";
 		public static final String DARKGREATSWORD_ICON = "DarkGreatsword";
@@ -48,7 +48,7 @@ public class ItemInfo {
 	//Dark Amethyst
 		public static int DARKAMETHYST_ID;
 		public static final String DARKAMETHYST_KEY = "darkamethyst";
-		public static final int DARKAMETHYST_DEFAULT = 31053;
+		public static final int DARKAMETHYST_DEFAULT = 31058;
 		public static final String DARKAMETHYST_UNLOCALIZED_NAME = "darkamethyst";
 		public static final String DARKAMETHYST_NAME = "Dark Amethyst";
 		public static final String DARKAMETHYST_ICON = "Darkamethyst";		
@@ -64,7 +64,7 @@ public class ItemInfo {
 	//Dark Iron Ingot
 		public static int DARKIRONINGOT_ID;
 		public static final String DARKIRONINGOT_KEY = "darkironingot";
-		public static final int DARKIRONINGOT_DEFAULT = 31054;
+		public static final int DARKIRONINGOT_DEFAULT = 31060;
 		public static final String DARKIRONINGOT_UNLOCALIZED_NAME = "darkironingot";
 		public static final String DARKIRONINGOT_NAME = "Dark Iron Ingot";
 		public static final String DARKIRONINGOT_ICON = "DarkIroningot";
@@ -72,7 +72,7 @@ public class ItemInfo {
 	//Dark Stick
 		public static int DARKSTICK_ID;
 		public static final String DARKSTICK_KEY = "darkstick";
-		public static final int DARKSTICK_DEFAULT = 31056;
+		public static final int DARKSTICK_DEFAULT = 31061;
 		public static final String DARKSTICK_UNLOCALIZED_NAME = "darkstick";
 		public static final String DARKSTICK_NAME = "Dark Stick";
 		public static final String DARKSTICK_ICON = "Darkstick";
@@ -80,7 +80,7 @@ public class ItemInfo {
 	//Darksword
 		public static int DARKSWORD_ID;
 		public static final String DARKSWORD_KEY = "darksword";
-		public static final int DARKSWORD_DEFAULT = 31057;
+		public static final int DARKSWORD_DEFAULT = 31062;
 		public static final String DARKSWORD_UNLOCALIZED_NAME = "darksword";
 		public static final String DARKSWORD_NAME = "Dark Sword";
 		public static final String DARKSWORD_ICON = "Darksword";
@@ -88,11 +88,26 @@ public class ItemInfo {
 	//Dark Pickaxe
 		public static int DARKPICKAXE_ID;
 		public static final String DARKPICKAXE_KEY = "darkpickaxe";
-		public static final int DARKPICKAXE_DEFAULT = 31060;
+		public static final int DARKPICKAXE_DEFAULT = 31063;
 		public static final String DARKPICKAXE_UNLOCALIZED_NAME = "darkpickaxe";
 		public static final String DARKPICKAXE_NAME = "Dark Pickaxe";
 		public static final String DARKPICKAXE_ICON = "Darkpickaxe";
 		
+	//Dark Axe
+		public static int DARKAXE_ID;
+		public static final String DARKAXE_KEY = "darkaxe";
+		public static final int DARKAXE_DEFAULT = 31064;
+		public static final String DARKAXE_UNLOCALIZED_NAME = "darkaxe";
+		public static final String DARKAXE_NAME = "Dark Axe";
+		public static final String DARKAXE_ICON = "Darkaxe";
+		
+	//Dark Shovel
+		public static int DARKSHOVEL_ID;
+		public static final String DARKSHOVEL_KEY = "darkshovel";
+		public static final int DARKSHOVEL_DEFAULT = 31065;
+		public static final String DARKSHOVEL_UNLOCALIZED_NAME = "darkshovel";
+		public static final String DARKSHOVEL_NAME = "Dark Shovel";
+		public static final String DARKSHOVEL_ICON = "Darkshovel";
 		
 		
 	
