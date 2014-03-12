@@ -22,14 +22,20 @@ public class DarkAdaptations {
 	@Instance(ModInfo.MODID)
 	public static DarkAdaptations instance;
 	
-	@SidedProxy(clientSide = "saitek.darkadaptations.proxy.ClientProxy", serverSide = "saitek.darkadaptations.proxy.CommonProxy")
+	@SidedProxy(clientSide = "saitek.darkadaptations.proxy.ClientProxy", serverSide = "saitek.darkadaptations.proxy.CommonProxy")	
+	
 	public static CommonProxy proxy;
+	
+	
+	
+	
 	
 	@EventHandler
 	public void PreInit(FMLPreInitializationEvent event) {
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 		Items.init();
 		Blocks.init();
+		new CheckVersion();
 		
 		proxy.initSounds();
 		proxy.initRenderers();
