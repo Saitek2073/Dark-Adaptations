@@ -9,7 +9,7 @@ public class UpdateInfo {
 	public static int currentVersion = 8;
 
 	// This url needs changing to your own url
-	public static final String versionURL = "http://build.darkserver.co.uk/job/Dark-Adaptations/";
+	public static final String versionURL = "http://www.mediafire.com/download/3ahacqcpa6owacy/Dark+Adaptationsv0.1.1.a.zip";
 
 	public static String getLatestVersion() throws Exception {
 		String data = getData(versionURL);

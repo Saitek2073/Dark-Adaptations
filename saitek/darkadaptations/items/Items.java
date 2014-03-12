@@ -27,7 +27,7 @@ public class Items {
 	public static EnumToolMaterial toolDark = EnumHelper.addToolMaterial("DARK", 3, 1500, 6.0F, 7.0F, 30);
 	
 	//Weapon Material
-	public static EnumToolMaterial toolDarkGreatsword = EnumHelper.addToolMaterial("DARKGREATSWORD", 3, 1500, 6.0F, 10.0F, 30);
+	public static EnumToolMaterial toolDarkGreatsword = EnumHelper.addToolMaterial("DARKGREATSWORD", 3, 1500, 6.0F, 22.0F, 30);
 	public static EnumToolMaterial toolDarksword = EnumHelper.addToolMaterial("DARKSWORD", 3, 1500, 6.0F, 8.0F, 30);
 	public static EnumToolMaterial toolDarkPickaxe = EnumHelper.addToolMaterial("DARKPICKAXE", 3, 1500, 6.0F, 8.0F, 30);
 	public static EnumToolMaterial toolDarkaxe = EnumHelper.addToolMaterial("DARKAXE", 3, 1500, 6.0F, 8.0F, 30);
@@ -162,6 +162,7 @@ public class Items {
 			'X', Items.darksword,
 			'/', Items.darkstick,
 			'*', Items.darkamethyst
+			
 			
 		});
 		

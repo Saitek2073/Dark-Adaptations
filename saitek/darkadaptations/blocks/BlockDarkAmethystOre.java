@@ -45,7 +45,7 @@ public class BlockDarkAmethystOre extends Block {
 		
 	@Override
 	public int quantityDropped(Random par1Random) {
-		return 2;
+		return 1;
 	}
 	
 	
