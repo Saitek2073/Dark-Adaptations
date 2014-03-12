@@ -2,7 +2,7 @@
 {
   "modid": "DarkAdaptations",
   "name" : "Dark Adaptations",
-  "version" : ,
+  "version" : "",
   "credits" : "Thanks to Darkrising for the inspiration to make mods.",
   "authors": [
     "Saitek",
@@ -12,7 +12,6 @@
   "url" : "http://www.darkserver.co.uk/",
     "logoFile": "/assets/darkadaptations/logo/logoFile.png",
   "parent" : "",
-  "screenshots": [
-  ]
+  "screenshots": [],
 }
 ]

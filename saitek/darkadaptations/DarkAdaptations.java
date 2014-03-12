@@ -14,6 +14,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = ModInfo.MODID, name = ModInfo.NAME, version = ModInfo.VERSION)
 @NetworkMod(channels = {ModInfo.CHANNEL}, clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
@@ -35,10 +36,13 @@ public class DarkAdaptations {
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 		Items.init();
 		Blocks.init();
-		new CheckVersion();
+		
 		
 		proxy.initSounds();
 		proxy.initRenderers();
+		
+		GameRegistry.registerPlayerTracker(new UpdatePlayerTracker());
+		new UpdateChecker();
 	}
 
 	@EventHandler
