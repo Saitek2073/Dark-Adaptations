@@ -2,12 +2,12 @@ package saitek.darkadaptations.items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumToolMaterial;
-import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemSpade;
 import saitek.darkadaptations.creativetabs.MainTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ItemDarkshovel extends ItemSword {
+public class ItemDarkshovel extends ItemSpade {
 
 	public ItemDarkshovel(int id, EnumToolMaterial par2EnumToolMaterial) {
 		super(id, par2EnumToolMaterial);

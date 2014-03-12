@@ -27,11 +27,11 @@ public class Items {
 	public static EnumToolMaterial toolDark = EnumHelper.addToolMaterial("DARK", 3, 1500, 6.0F, 7.0F, 30);
 	
 	//Weapon Material
-	public static EnumToolMaterial toolDarkGreatsword = EnumHelper.addToolMaterial("DARKGREATSWORD", 3, 1500, 6.0F, 22.0F, 30);
+	public static EnumToolMaterial toolDarkGreatsword = EnumHelper.addToolMaterial("DARKGREATSWORD", 3, 1500, 6.0F, 20.0F, 30);
 	public static EnumToolMaterial toolDarksword = EnumHelper.addToolMaterial("DARKSWORD", 3, 1500, 6.0F, 8.0F, 30);
 	public static EnumToolMaterial toolDarkPickaxe = EnumHelper.addToolMaterial("DARKPICKAXE", 3, 1500, 6.0F, 8.0F, 30);
 	public static EnumToolMaterial toolDarkaxe = EnumHelper.addToolMaterial("DARKAXE", 3, 1500, 6.0F, 8.0F, 30);
-	public static EnumToolMaterial toolDarkshovel = EnumHelper.addToolMaterial("DARKSHOVEL", 3, 1500, 6.0F, 5.0F, 30);
+	public static EnumToolMaterial toolDarkshovel = EnumHelper.addToolMaterial("DARKSHOVEL", 3, 1500, 6.0F, 0F, 30);
 	
 	
 	//Misc
@@ -156,12 +156,15 @@ public class Items {
 		//Dark Great Sword
 		GameRegistry.addRecipe(new ItemStack(darkgreatsword), new Object[] {
 			"X*X",
-			"*/*",
-			" / ",
+			"*#*",
+			"&/&",
 			
 			'X', Items.darksword,
 			'/', Items.darkstick,
-			'*', Items.darkamethyst
+			'*', Items.darkamethyst,
+			'#', Items.darkwand,
+			'&', Items.darkdust,
+			
 			
 			
 		});

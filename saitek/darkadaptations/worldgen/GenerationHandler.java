@@ -2,6 +2,7 @@ package saitek.darkadaptations.worldgen;
 
 import java.util.Random;
 
+import net.minecraft.block.Block;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
@@ -19,7 +20,7 @@ public class GenerationHandler implements IWorldGenerator {
 	public GenerationHandler() {
 		GameRegistry.registerWorldGenerator(this);
 		DarkIronOre = new WorldGenMinable(BlockInfo.DARKIRONORE_ID, 16);
-		DarkGlowrock = new WorldGenMinable(BlockInfo.DARKGLOWROCK_ID, 16);
+		DarkGlowrock = new WorldGenMinable(BlockInfo.DARKGLOWROCK_ID, 16,Block.netherrack.blockID);
 		DarkAmethystOre = new WorldGenMinable(BlockInfo.DARKAMETHYSTORE_ID, 16);
 	}
 	
@@ -37,8 +38,8 @@ public class GenerationHandler implements IWorldGenerator {
 
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
-		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkIronOre, 9, 30);
-		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkGlowrock, 0, 60);
+		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkIronOre, 5, 35);
+		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkGlowrock, 0, 128);
 		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkAmethystOre, 0, 16);
 	
 	}

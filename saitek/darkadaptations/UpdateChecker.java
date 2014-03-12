@@ -10,13 +10,13 @@ public class UpdateChecker {
 
 		try {
 			if (Integer.parseInt(getLatestVersion()) > ModInfo.CURRENTBUILD) {
-				System.out.println(ModInfo.NAME + " a new version is available!");
+				System.out.println(ModInfo.NAME + " A new version is available!");
 				ModInfo.UPDATEA = true;
 			} else {
-				System.out.println(ModInfo.NAME + " no updates are available.");
+				System.out.println(ModInfo.NAME + " No updates are available.");
 			}
 		} catch (Exception e) {
-			System.out.println(ModInfo.NAME + " something went wrong, failed to check for updates!");
+			System.out.println(ModInfo.NAME + " Something went wrong, failed to check for updates!");
 			e.printStackTrace();
 		}
 	}
