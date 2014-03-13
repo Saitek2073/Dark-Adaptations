@@ -5,7 +5,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
 import saitek.darkadaptations.sounds.Sounds;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,7 +15,7 @@ public class ItemDarkWand extends Item  {
 
 	public ItemDarkWand(int id) {
 		super(id);
-		setCreativeTab(MainTab.tabMain);
+		setCreativeTab(WeaponTab.tabWeapon);
 		setMaxStackSize(1);
 		setUnlocalizedName(ItemInfo.DARKWAND_UNLOCALIZED_NAME);
 	}

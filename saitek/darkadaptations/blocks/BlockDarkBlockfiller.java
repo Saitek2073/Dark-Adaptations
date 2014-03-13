@@ -9,7 +9,7 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.Icon;
 import net.minecraft.world.World;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.ItemTab;
 import saitek.darkadaptations.tileentities.TileEntityFiller;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,7 +18,7 @@ public class BlockDarkBlockfiller extends BlockContainer {
 	public BlockDarkBlockfiller(int id) {
 		super(id, Material.iron);
 		//setCreativeTab(CreativeTabs.tabBlock);
-		setCreativeTab(MainTab.tabMain);
+		setCreativeTab(ItemTab.tabItem);
 		setHardness(2F);
 		setStepSound(Block.soundMetalFootstep);
 		setUnlocalizedName(BlockInfo.DARKBLOCKFILLER_UNLOCALIZED_NAME);

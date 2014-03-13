@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
 import saitek.darkadaptations.sounds.Sounds;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,8 +15,10 @@ public class ItemDarkGreatsword extends ItemSword {
 	
 	public ItemDarkGreatsword(int id, EnumToolMaterial par2EnumToolMaterial) {
 		super(id, par2EnumToolMaterial);		
-		setCreativeTab(MainTab.tabMain);
+		setCreativeTab(WeaponTab.tabWeapon);
 		setMaxStackSize(1);
+		
+		
 	
 		setUnlocalizedName(ItemInfo.DARKGREATSWORD_UNLOCALIZED_NAME);
 		

@@ -9,7 +9,8 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.common.ForgeDirection;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
+import saitek.darkadaptations.creativetabs.OreTab;
 import saitek.darkadaptations.items.Items;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,7 +19,7 @@ public class BlockDarkAmethystOre extends Block {
 	
 	public BlockDarkAmethystOre(int id) {
 	    super(id, Material.rock);
-	    setCreativeTab(MainTab.tabMain);
+	    setCreativeTab(OreTab.tabOre);
 	    setLightValue(0.4F);
 	    setHardness(4F);
 	    setResistance(5F);

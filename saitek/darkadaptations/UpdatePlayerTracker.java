@@ -10,7 +10,7 @@ public class UpdatePlayerTracker implements IPlayerTracker {
         if (ModInfo.UPDATEA == true) {
             player.addChatMessage(ModInfo.NAME + ": A new version is available!");
         }else{
-player.addChatMessage(ModInfo.NAME + ": Is up-to-date.");
+player.addChatMessage(ModInfo.NAME + ": Is up to date.");
      }
         
     }

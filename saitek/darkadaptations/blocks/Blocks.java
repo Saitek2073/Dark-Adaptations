@@ -13,10 +13,7 @@ public class Blocks {
 	public static Block darkglowrock;
 	public static Block darkamethystore;
 	public static Block darkblockfiller;
-	public static Block darkweb;
-	
-	
-	
+
 	
 	
 	
@@ -37,6 +34,9 @@ public class Blocks {
 		
 		
 		
+
+		
+		
 		
 		
 		
@@ -50,6 +50,7 @@ public class Blocks {
 		LanguageRegistry.addName(darkglowrock, BlockInfo.DARKGLOWROCK_NAME);
 		LanguageRegistry.addName(darkamethystore, BlockInfo.DARKAMETHYSTORE_NAME);
 		LanguageRegistry.addName(darkblockfiller, BlockInfo.DARKBLOCKFILLER_NAME);
+
 		
 		
 		

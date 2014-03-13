@@ -9,7 +9,8 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.common.ForgeDirection;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
+import saitek.darkadaptations.creativetabs.OreTab;
 import saitek.darkadaptations.items.Items;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,7 +19,7 @@ public class BlockDarkGlowrock extends Block {
 	
 	public BlockDarkGlowrock(int id) {
 		super(id, Material.glass);
-		setCreativeTab(MainTab.tabMain);
+		setCreativeTab(OreTab.tabOre);
 		setLightValue(0.9F);
 		setHardness(0.3F);
 		setResistance(5F);

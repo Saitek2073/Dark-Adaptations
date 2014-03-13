@@ -8,7 +8,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Icon;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
 import saitek.darkadaptations.sounds.Sounds;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -20,7 +20,7 @@ public class ItemDarkGreatWand extends Item {
 	private Icon chargedIcon;
 	public ItemDarkGreatWand(int id) {
 		super(id);
-		setCreativeTab(MainTab.tabMain);
+		setCreativeTab(WeaponTab.tabWeapon);
 		setMaxStackSize(1);
 		setUnlocalizedName(ItemInfo.DARKGREATWAND_UNLOCALIZED_NAME);	
 	}

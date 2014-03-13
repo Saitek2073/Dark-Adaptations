@@ -5,14 +5,15 @@ import net.minecraft.item.ItemStack;
 import saitek.darkadaptations.items.Items;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-public class MainTab {
-	public static CreativeTabs tabMain = new CreativeTabs("darkadaptations") {
+public class ItemTab {
+	public static CreativeTabs tabItem = new CreativeTabs("darkadaptationsitems") {
         public ItemStack getIconItemStack() {
-        	return new ItemStack(Items.darkgreatwand, 1, 0);
+        	return new ItemStack(Items.darkdust, 1, 0);
         }
 	};
 	
 	public static void initTabNames() {
-		LanguageRegistry.instance().addStringLocalization("itemGroup.darkadaptations", "en_US", "Dark Adaptations");
+		LanguageRegistry.instance().addStringLocalization("itemGroup.darkadaptationsitems", "en_US", "Dark Adaptations Items");
 	}
+
 }

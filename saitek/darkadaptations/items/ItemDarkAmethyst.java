@@ -1,16 +1,16 @@
 package saitek.darkadaptations.items;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import saitek.darkadaptations.creativetabs.MainTab;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
+import saitek.darkadaptations.creativetabs.ItemTab;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class ItemDarkAmethyst extends Item {
 
 	public ItemDarkAmethyst(int id) {
 		super(id);
-		setCreativeTab(MainTab.tabMain);
+		setCreativeTab(ItemTab.tabItem);
 		setUnlocalizedName(ItemInfo.DARKAMETHYST_NAME);
 		
 	}

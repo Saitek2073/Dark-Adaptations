@@ -1,7 +1,9 @@
 package saitek.darkadaptations;
 
 import saitek.darkadaptations.blocks.Blocks;
-import saitek.darkadaptations.creativetabs.MainTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
+import saitek.darkadaptations.creativetabs.OreTab;
+import saitek.darkadaptations.creativetabs.ItemTab;
 import saitek.darkadaptations.items.Items;
 import saitek.darkadaptations.network.PacketHandler;
 import saitek.darkadaptations.proxy.CommonProxy;
@@ -50,7 +52,12 @@ public class DarkAdaptations {
 		Items.addNames();
 		Blocks.addNames();
 		
-		MainTab.initTabNames();
+		WeaponTab.initTabNames();
+		OreTab.initTabNames();
+		ItemTab.initTabNames();
+		
+		
+		
 		
 		Items.registerRecipes();
 		Blocks.registerRecipes();
