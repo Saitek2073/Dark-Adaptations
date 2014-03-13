@@ -7,27 +7,26 @@ public class UpdatePlayerTracker implements IPlayerTracker {
 
 	@Override
 	public void onPlayerLogin(EntityPlayer player) {
-		if (ModInfo.UPDATEA == true) {
-			player.addChatMessage(ModInfo.NAME + ": A new version is available!");
-		}
-		
-	}
+        if (ModInfo.UPDATEA == true) {
+            player.addChatMessage(ModInfo.NAME + ": A new version is available!");
+        }else{
+player.addChatMessage(ModInfo.NAME + ": Is up-to-date.");
+     }
+        
+    }
 
 	@Override
 	public void onPlayerLogout(EntityPlayer player) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void onPlayerChangedDimension(EntityPlayer player) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void onPlayerRespawn(EntityPlayer player) {
-		// TODO Auto-generated method stub
 		
 	}
 

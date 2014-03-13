@@ -19,9 +19,13 @@ public class GenerationHandler implements IWorldGenerator {
 	
 	public GenerationHandler() {
 		GameRegistry.registerWorldGenerator(this);
-		DarkIronOre = new WorldGenMinable(BlockInfo.DARKIRONORE_ID, 16);
-		DarkGlowrock = new WorldGenMinable(BlockInfo.DARKGLOWROCK_ID, 16,Block.netherrack.blockID);
+		DarkIronOre = new WorldGenMinable(BlockInfo.DARKIRONORE_ID, 16);		
 		DarkAmethystOre = new WorldGenMinable(BlockInfo.DARKAMETHYSTORE_ID, 16);
+		
+		//Nether Ore Stuff
+		DarkGlowrock = new WorldGenMinable(BlockInfo.DARKGLOWROCK_ID, 16,Block.netherrack.blockID);
+		
+		
 	}
 	
 	private void generateStandardOre(Random rand, int chunkX, int chunkZ, World world, int iterations, WorldGenerator gen, int lowestY, int highestY){
