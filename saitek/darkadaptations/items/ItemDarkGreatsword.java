@@ -1,5 +1,7 @@
 package saitek.darkadaptations.items;
 
+import java.util.List;
+
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -61,6 +63,12 @@ public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister register) {
 		itemIcon = register.registerIcon(ItemInfo.TEXTURE_LOCATION + ":" + ItemInfo.DARKGREATSWORD_ICON);
+		
+	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public void addInformation(ItemStack itemstack, EntityPlayer player, List info, boolean useExtraInfomation) {
+			info.add("Right click to set fire and web ");
 	}
 	
 

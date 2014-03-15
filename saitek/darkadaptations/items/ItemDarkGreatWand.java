@@ -57,6 +57,7 @@ public class ItemDarkGreatWand extends Item {
 	@SideOnly(Side.CLIENT)
 	public void addInformation(ItemStack itemstack, EntityPlayer player, List info, boolean useExtraInformation) {
 		info.add("This weapon has been used " + itemstack.getItemDamage() + " times");
+		info.add("Right click to send mob in the air");
 		
 		if (isCharged(itemstack.getItemDamage())) {
 			info.add("This weapon is charged");
