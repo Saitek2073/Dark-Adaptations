@@ -1,5 +1,6 @@
 package saitek.darkadaptations.items;
 
+import net.minecraft.item.EnumArmorMaterial;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -20,8 +21,23 @@ public class Items {
 	public static Item darkpickaxe;
 	public static Item darkaxe;
 	public static Item darkshovel;
+	public static Item darktimekey;
 	
 	
+	//public static Item darkironchestplate;
+   //public static Item darkironhelmet;
+   // public static Item darkironleggings;
+	//public static Item darkironboots;
+	
+	
+	//Dark Armor Material
+	public static EnumArmorMaterial armorDark = EnumHelper.addArmorMaterial("Dark" , 40, new int [] {3, 8, 6, 3}, 30);
+	
+	//Dark Armor Set
+	public static EnumArmorMaterial armorDarkironchestplate = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
+	public static EnumArmorMaterial armorDarkironboots = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
+	public static EnumArmorMaterial armorDarkironleggings = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
+	public static EnumArmorMaterial armorDarkironhelmet = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
 	
 	//Tool Material
 	public static EnumToolMaterial toolDark = EnumHelper.addToolMaterial("DARK", 3, 1500, 6.0F, 7.0F, 30);
@@ -51,11 +67,21 @@ public class Items {
 		darkaxe = new ItemDarkaxe(ItemInfo.DARKAXE_ID, toolDarkaxe);
 		darkshovel = new ItemDarkshovel(ItemInfo.DARKSHOVEL_ID, toolDarkshovel);
 		
+		//Dark Armor Set
+		
+		//darkironchestplate = new Darkironchestplate(ItemInfo.DARKIRONCHESTPLATE_ID, armorDarkironchestplate, 0, 1, "Dark" );
+		//darkironboots = new Darkironboots(ItemInfo.DARKIRONBOOTS_ID, armorDarkironboots, 0, 3, "Dark" );
+		//darkironleggings = new Darkironleggings(ItemInfo.DARKIRONLEGGINGS_ID, armorDarkironleggings, 0, 2, "Dark" );
+		//darkironhelmet = new Darkironhelmet(ItemInfo.DARKIRONHELMET_ID, armorDarkironhelmet, 0, 0, "Dark");
+		
+		
 		//Misc
 		darkamethyst = new ItemDarkAmethyst(ItemInfo.DARKAMETHYST_ID);
 		darkdust = new ItemDarkdust(ItemInfo.DARKDUST_ID);
 		darkironingot = new ItemDarkIronIngot(ItemInfo.DARKIRONINGOT_ID);
 		darkstick = new ItemDarkstick(ItemInfo.DARKSTICK_ID);
+		darktimekey = new ItemDarktimekey(ItemInfo.DARKTIMEKEY_ID);
+		
 		
 		
 	}
@@ -66,8 +92,16 @@ public class Items {
 		LanguageRegistry.addName(darkgreatsword, ItemInfo.DARKGREATSWORD_NAME);
 		LanguageRegistry.addName(darkwand, ItemInfo.DARKWAND_NAME);
 		
+		//Armor
+		
+		//LanguageRegistry.addName(darkironchestplate, ItemInfo.DARKIRONCHESTPLATE_NAME);
+		//LanguageRegistry.addName(darkironboots, ItemInfo.DARKIRONBOOTS_NAME);
+		//LanguageRegistry.addName(darkironleggings, ItemInfo.DARKIRONLEGGINGS_NAME);
+		//LanguageRegistry.addName(darkironhelmet, ItemInfo.DARKIRONHELMET_NAME);
 		
 		
+		
+				
 		//Misc
 		LanguageRegistry.addName(darkdust, ItemInfo.DARKDUST_NAME);
 		LanguageRegistry.addName(darkamethyst, ItemInfo.DARKAMETHYST_NAME);
@@ -77,7 +111,7 @@ public class Items {
 		LanguageRegistry.addName(darkaxe, ItemInfo.DARKAXE_NAME);
 		LanguageRegistry.addName(darkpickaxe, ItemInfo.DARKPICKAXE_NAME);
 		LanguageRegistry.addName(darkshovel, ItemInfo.DARKSHOVEL_NAME);
-		
+		LanguageRegistry.addName(darktimekey, ItemInfo.DARKTIMEKEY_NAME);
      }
 	
 	public static void registerRecipes() {

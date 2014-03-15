@@ -5,13 +5,15 @@
   "version" : "",
   "credits" : "Thanks to Darkrising for the inspiration to make mods",
   "authors": [
-    "Saitek",
-	"Darkrising"
+  "Saitek",
+  "Darkrising",
+  "Dexman545",
+  "Gunpowder1234321"  
   ],
   "description": "A Mod That Adds A Darker Touch To Minecraft.",
   "url" : "http://www.darkserver.co.uk/",
-    "logoFile": "/assets/darkadaptations/logo/logoFile.png",
+    "logoFile": "/assets/darkadaptations/logo/darkadaptations.png",
   "parent" : "",
-  "screenshots": [],
+  "screenshots": []
 }
 ]

@@ -6,8 +6,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
+import net.minecraft.world.World;
 import saitek.darkadaptations.creativetabs.WeaponTab;
-import saitek.darkadaptations.sounds.Sounds;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
@@ -24,6 +24,18 @@ public class ItemDarkGreatsword extends ItemSword {
 		
 	
 }
+	
+	public ItemStack onItemRightClick(ItemStack itemstack, World world,
+			EntityPlayer player) {
+		
+			itemstack.setItemDamage(itemstack.getItemDamage() + 10);
+		
+				return itemstack;
+		
+	}
+	
+	
+	
 
 @Override
 public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player, EntityLivingBase target) {

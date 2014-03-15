@@ -5,6 +5,11 @@ public class ItemInfo {
 	//Texture location
 	public static final String TEXTURE_LOCATION = "darkadaptations";
 	
+	//Armor
+	
+	
+	
+	
 	//Items
 	
 	//DarkWand
@@ -96,6 +101,43 @@ public class ItemInfo {
 		public static final String DARKSHOVEL_NAME = "Dark Shovel";
 		public static final String DARKSHOVEL_ICON = "Darkshovel";
 		
+	//Dark Armor
+		public static int DARKIRONCHESTPLATE_ID;
+		public static final String DARKIRONCHESTPLATE_KEY = "darkironchestplate";
+		public static final int DARKIRONCHESTPLATE_DEFAULT = 31066;
+		public static final String DARKIRONCHESTPLATE_UNLOCALIZED_NAME = "darkironchestplate";
+		public static final String DARKIRONCHESTPLATE_NAME = "Dark Iron Chestplate";
+		public static final String DARKIRONCHESTPLATE_ICON = "Darkironchestplate";
+		
+		public static int DARKIRONHELMET_ID;
+		public static final String DARKIRONHELMET_KEY = "darkironhelmet";
+		public static final int DARKIRONHELMET_DEFAULT = 31067;
+		public static final String DARKIRONHELMET_UNLOCALIZED_NAME = "darkironhelmet";
+		public static final String DARKIRONHELMET_NAME = "Dark Iron Helmet";
+		public static final String DARKIRONHELMET_ICON = "Darkironhelmet";
+		
+		
+public static int DARKIRONLEGGINGS_ID;
+		public static final String DARKIRONLEGGINGS_KEY = "darkironleggings";
+		public static final int DARKIRONLEGGINGS_DEFAULT = 31068;
+		public static final String DARKIRONLEGGINGS_UNLOCALIZED_NAME = "darkironleggings";
+		public static final String DARKIRONLEGGINGS_NAME = "Dark Iron Leggings";
+		public static final String DARKIRONLEGGINGS_ICON = "Darkironleggings";
+		
+				
+public static int DARKIRONBOOTS_ID;
+		public static final String DARKIRONBOOTS_KEY = "darkironboots";
+		public static final int DARKIRONBOOTS_DEFAULT = 31069;
+		public static final String DARKIRONBOOTS_UNLOCALIZED_NAME = "darkironboots";
+		public static final String DARKIRONBOOTS_NAME = "Dark Iron Boots";
+		public static final String DARKIRONBOOTS_ICON = "Darkironboots";
+		
+public static int DARKTIMEKEY_ID;
+		public static final String DARKTIMEKEY_KEY = "darktimekey";
+		public static final int DARKTIMEKEY_DEFAULT = 31070;
+		public static final String DARKTIMEKEY_UNLOCALIZED_NAME = "darktimekey";
+		public static final String DARKTIMEKEY_NAME = "Dark Time Key";
+		public static final String DARKTIMEKEY_ICON = "Darktimekey";		
 		
 	
 }
