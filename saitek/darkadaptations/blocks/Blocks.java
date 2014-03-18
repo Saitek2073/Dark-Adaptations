@@ -13,9 +13,9 @@ public class Blocks {
 	public static Block darkglowrock;
 	public static Block darkamethystore;
 	public static Block darkblockfiller;
-
-	
-	
+	public static Block darkcrystal;
+	public static Block blockdarkamethyst;
+	public static Block darkswampgrass;
 	
 	//Game Registry 
 	
@@ -32,6 +32,11 @@ public class Blocks {
 		darkblockfiller = new BlockDarkBlockfiller(BlockInfo.DARKBLOCKFILLER_ID);
 		GameRegistry.registerBlock(darkblockfiller, BlockInfo.DARKBLOCKFILLER_KEY);
 		
+		darkswampgrass = new BlockDarkswampgrass(BlockInfo.DARKSWAMPGRASS_ID);
+		GameRegistry.registerBlock(darkswampgrass, BlockInfo.DARKSWAMPGRASS_KEY);
+		
+		blockdarkamethyst = new BlockBlockdarkamethyst(BlockInfo.BLOCKDARKAMETHYST_ID);
+		GameRegistry.registerBlock(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_KEY);
 		
 		
 
@@ -50,8 +55,8 @@ public class Blocks {
 		LanguageRegistry.addName(darkglowrock, BlockInfo.DARKGLOWROCK_NAME);
 		LanguageRegistry.addName(darkamethystore, BlockInfo.DARKAMETHYSTORE_NAME);
 		LanguageRegistry.addName(darkblockfiller, BlockInfo.DARKBLOCKFILLER_NAME);
-
-		
+		LanguageRegistry.addName(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_NAME);
+		LanguageRegistry.addName(darkswampgrass, BlockInfo.DARKSWAMPGRASS_NAME);
 		
 		
 	}
@@ -80,7 +85,14 @@ public class Blocks {
 			
 		});
 		
-		
+		GameRegistry.addRecipe(new ItemStack(blockdarkamethyst), new Object[] {
+			"XXX",
+			"XXX",
+			"XXX",
+			
+			'X', Items.darkamethyst			
+			
+		});
 		
 	}
 }

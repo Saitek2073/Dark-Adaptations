@@ -117,7 +117,7 @@ public class ItemInfo {
 		public static final String DARKIRONHELMET_ICON = "Darkironhelmet";
 		
 		
-public static int DARKIRONLEGGINGS_ID;
+        public static int DARKIRONLEGGINGS_ID;
 		public static final String DARKIRONLEGGINGS_KEY = "darkironleggings";
 		public static final int DARKIRONLEGGINGS_DEFAULT = 31068;
 		public static final String DARKIRONLEGGINGS_UNLOCALIZED_NAME = "darkironleggings";
@@ -125,14 +125,14 @@ public static int DARKIRONLEGGINGS_ID;
 		public static final String DARKIRONLEGGINGS_ICON = "Darkironleggings";
 		
 				
-public static int DARKIRONBOOTS_ID;
+        public static int DARKIRONBOOTS_ID;
 		public static final String DARKIRONBOOTS_KEY = "darkironboots";
 		public static final int DARKIRONBOOTS_DEFAULT = 31069;
 		public static final String DARKIRONBOOTS_UNLOCALIZED_NAME = "darkironboots";
 		public static final String DARKIRONBOOTS_NAME = "Dark Iron Boots";
 		public static final String DARKIRONBOOTS_ICON = "Darkironboots";
 		
-public static int DARKTIMEKEY_ID;
+        public static int DARKTIMEKEY_ID;
 		public static final String DARKTIMEKEY_KEY = "darktimekey";
 		public static final int DARKTIMEKEY_DEFAULT = 31070;
 		public static final String DARKTIMEKEY_UNLOCALIZED_NAME = "darktimekey";

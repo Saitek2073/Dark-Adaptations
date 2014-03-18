@@ -48,7 +48,10 @@ public class ConfigHandler {
 			BlockInfo.DARKIRONORE_ID = config.getBlock(BlockInfo.DARKIRONORE_KEY, BlockInfo.DARKIRONORE_DEFAULT).getInt();
 			BlockInfo.DARKGLOWROCK_ID = config.getBlock(BlockInfo.DARKGLOWROCK_KEY, BlockInfo.DARKGLOWROCK_DEFAULT).getInt();
 			BlockInfo.DARKAMETHYSTORE_ID = config.getBlock(BlockInfo.DARKAMETHYSTORE_KEY, BlockInfo.DARKAMETHYSTORE_DEFAULT).getInt();
-			BlockInfo.DARKBLOCKFILLER_ID = config.getBlock(BlockInfo.DARKBLOCKFILLER_KEY, BlockInfo.DARKBLOCKFILLER_DEFAULT).getInt();		
+			BlockInfo.DARKBLOCKFILLER_ID = config.getBlock(BlockInfo.DARKBLOCKFILLER_KEY, BlockInfo.DARKBLOCKFILLER_DEFAULT).getInt();
+			BlockInfo.BLOCKDARKAMETHYST_ID = config.getBlock(BlockInfo.BLOCKDARKAMETHYST_KEY, BlockInfo.BLOCKDARKAMETHYST_DEFAULT).getInt();
+			BlockInfo.DARKSWAMPGRASS_ID = config.getBlock(BlockInfo.DARKSWAMPGRASS_KEY, BlockInfo.DARKSWAMPGRASS_DEFAULT).getInt();
+			
 			TileEntityFiller.SPREAD_LEVELS = config.get("filler", "Filler Spread Radius", 75).getInt();
 			
 		config.save();

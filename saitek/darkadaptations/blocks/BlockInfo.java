@@ -41,6 +41,24 @@ public class BlockInfo {
 		public static final String DARKBLOCKFILLER_NAME = "Dark Floor Filler";
 		public static final String DARKBLOCKFILLER_TEXTURE = "Darkblockfiller";
 		
+		//Dark Swampgrass
+		public static int DARKSWAMPGRASS_ID;
+		public static final String DARKSWAMPGRASS_KEY = "darkswampgrass";
+		public static final int DARKSWAMPGRASS_DEFAULT = 2155;
+		public static final String DARKSWAMPGRASS_UNLOCALIZED_NAME = "Darkswampgrass";
+		public static final String DARKSWAMPGRASS_NAME = " Dark Swampgrass";
+		public static final String DARKSWAMPGRASS_TEXTURE = "darkswampgrass";
+		
+
+		
+		//Block of Dark Amethyst
+		public static int BLOCKDARKAMETHYST_ID;
+		public static final String BLOCKDARKAMETHYST_KEY = "blockdarkamethyst";
+		public static final int BLOCKDARKAMETHYST_DEFAULT = 2156;
+		public static final String BLOCKDARKAMETHYST_UNLOCALIZED_NAME = "Blockdarkamethyst";
+		public static final String BLOCKDARKAMETHYST_NAME = " Block of Dark Amethyst";
+		public static final String BLOCKDARKAMETHYST_TEXTURE = "Blockdarkamethyst";
+		
 		//Dark Iron Furnace
 		
 		

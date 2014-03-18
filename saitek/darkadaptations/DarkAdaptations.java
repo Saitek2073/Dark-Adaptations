@@ -1,9 +1,11 @@
 package saitek.darkadaptations;
 
+import saitek.darkadaptations.blocks.Biomes;
 import saitek.darkadaptations.blocks.Blocks;
-import saitek.darkadaptations.creativetabs.WeaponTab;
-import saitek.darkadaptations.creativetabs.OreTab;
 import saitek.darkadaptations.creativetabs.ItemTab;
+import saitek.darkadaptations.creativetabs.OreTab;
+import saitek.darkadaptations.creativetabs.ToolTab;
+import saitek.darkadaptations.creativetabs.WeaponTab;
 import saitek.darkadaptations.items.Items;
 import saitek.darkadaptations.network.PacketHandler;
 import saitek.darkadaptations.proxy.CommonProxy;
@@ -38,7 +40,7 @@ public class DarkAdaptations {
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 		Items.init();
 		Blocks.init();
-		
+		Biomes.init();
 		
 		proxy.initSounds();
 		proxy.initRenderers();
@@ -55,6 +57,7 @@ public class DarkAdaptations {
 		WeaponTab.initTabNames();
 		OreTab.initTabNames();
 		ItemTab.initTabNames();
+		ToolTab.initTabNames();
 		
 		
 		

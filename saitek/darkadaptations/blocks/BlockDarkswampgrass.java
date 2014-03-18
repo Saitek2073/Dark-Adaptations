@@ -12,16 +12,16 @@ import saitek.darkadaptations.creativetabs.OreTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class BlockDarkIronOre extends Block {
-	
-	public BlockDarkIronOre(int id) {
-		super(id, Material.rock);
+public class BlockDarkswampgrass extends Block {
+
+	public BlockDarkswampgrass(int id) {
+		super(id, Material.grass);
 		setCreativeTab(OreTab.tabOre);
-		setLightValue(0.2F);
+		setLightValue(0.3F);
 		setHardness(4F);
-		setResistance(10F);
-		setStepSound(Block.soundStoneFootstep);
-		setUnlocalizedName(BlockInfo.DARKIRONORE_UNLOCALIZED_NAME);
+		setResistance(4F);
+		setStepSound(Block.soundGrassFootstep);
+		setUnlocalizedName(BlockInfo.DARKSWAMPGRASS_UNLOCALIZED_NAME);
 	}
 	public interface IBlockInfo {
 		
@@ -34,9 +34,11 @@ public class BlockDarkIronOre extends Block {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister register) {
-		blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOCATION + ":" + BlockInfo.DARKIRONORE_TEXTURE);
+		blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOCATION + ":" + BlockInfo.DARKSWAMPGRASS_TEXTURE);
 		
 		
-	}	
+	}
 	
+
+
 }

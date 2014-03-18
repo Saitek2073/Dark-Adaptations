@@ -8,6 +8,7 @@ import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraftforge.common.EnumHelper;
 import net.minecraftforge.oredict.OreDictionary;
 import saitek.darkadaptations.blocks.Blocks;
+import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
@@ -25,19 +26,19 @@ public class Items {
 	
 	
 	//public static Item darkironchestplate;
-   //public static Item darkironhelmet;
-   // public static Item darkironleggings;
+    //public static Item darkironhelmet;
+    //public static Item darkironleggings;
 	//public static Item darkironboots;
 	
 	
 	//Dark Armor Material
-	public static EnumArmorMaterial armorDark = EnumHelper.addArmorMaterial("Dark" , 40, new int [] {3, 8, 6, 3}, 30);
+	public static EnumArmorMaterial armorDarkiron = EnumHelper.addArmorMaterial("Darkiron" , 40, new int [] {3, 8, 6, 3}, 30);
 	
 	//Dark Armor Set
-	public static EnumArmorMaterial armorDarkironchestplate = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
-	public static EnumArmorMaterial armorDarkironboots = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
-	public static EnumArmorMaterial armorDarkironleggings = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
-	public static EnumArmorMaterial armorDarkironhelmet = EnumHelper.addArmorMaterial("DARK" , 40, new int [] {3, 8, 6, 3}, 30);
+	public static EnumArmorMaterial armorDarkironchestplate = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
+	public static EnumArmorMaterial armorDarkironboots = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
+	public static EnumArmorMaterial armorDarkironleggings = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
+	public static EnumArmorMaterial armorDarkironhelmet = EnumHelper.addArmorMaterial("Darkiron", 60, new int [] {6, 9, 9, 9}, 30);
 	
 	//Tool Material
 	public static EnumToolMaterial toolDark = EnumHelper.addToolMaterial("DARK", 3, 1500, 6.0F, 7.0F, 30);
@@ -69,11 +70,12 @@ public class Items {
 		
 		//Dark Armor Set
 		
-		//darkironchestplate = new Darkironchestplate(ItemInfo.DARKIRONCHESTPLATE_ID, armorDarkironchestplate, 0, 1, "Dark" );
-		//darkironboots = new Darkironboots(ItemInfo.DARKIRONBOOTS_ID, armorDarkironboots, 0, 3, "Dark" );
-		//darkironleggings = new Darkironleggings(ItemInfo.DARKIRONLEGGINGS_ID, armorDarkironleggings, 0, 2, "Dark" );
-		//darkironhelmet = new Darkironhelmet(ItemInfo.DARKIRONHELMET_ID, armorDarkironhelmet, 0, 0, "Dark");
 		
+		
+		//darkironhelmet = new Darkironhelmet(ItemInfo.DARKIRONHELMET_ID, armorDarkironhelmet, 0, 0, "Dark");
+		//darkironchestplate = new Darkironchestplate(ItemInfo.DARKIRONCHESTPLATE_ID, armorDarkironchestplate, 0, 1, "Dark" );		
+		//darkironleggings = new Darkironleggings(ItemInfo.DARKIRONLEGGINGS_ID, armorDarkironleggings, 0, 2, "Dark" );
+		//darkironboots = new Darkironboots(ItemInfo.DARKIRONBOOTS_ID, armorDarkironboots, 0, 3, "Dark" );
 		
 		//Misc
 		darkamethyst = new ItemDarkAmethyst(ItemInfo.DARKAMETHYST_ID);
@@ -112,6 +114,12 @@ public class Items {
 		LanguageRegistry.addName(darkpickaxe, ItemInfo.DARKPICKAXE_NAME);
 		LanguageRegistry.addName(darkshovel, ItemInfo.DARKSHOVEL_NAME);
 		LanguageRegistry.addName(darktimekey, ItemInfo.DARKTIMEKEY_NAME);
+		
+		
+		
+		
+		
+		RenderingRegistry.addNewArmourRendererPrefix("Dark");
      }
 	
 	public static void registerRecipes() {
@@ -205,9 +213,9 @@ public class Items {
 		
 		//Dark Shovel
 		GameRegistry.addRecipe(new ItemStack(darkshovel), new Object[] {
-			"X  ",
-			"/  ",
-			"/  ",
+			" X ",
+			" / ",
+			" / ",
 			
 			'X', Items.darkironingot,
 			'/', Items.darkstick

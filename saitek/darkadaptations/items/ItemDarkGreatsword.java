@@ -27,14 +27,7 @@ public class ItemDarkGreatsword extends ItemSword {
 	
 }
 	
-	public ItemStack onItemRightClick(ItemStack itemstack, World world,
-			EntityPlayer player) {
-		
-			itemstack.setItemDamage(itemstack.getItemDamage() + 10);
-		
-				return itemstack;
-		
-	}
+	
 	
 	
 	
@@ -45,10 +38,10 @@ public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player
 		target.setFire(10);
 		target.setInWeb();
 		
-		itemstack.setItemDamage(0);
+		itemstack.setItemDamage(itemstack.getItemDamage() + 5);
 		
 	}else{
-		itemstack.setItemDamage(itemstack.getItemDamage() + 1);
+		itemstack.setItemDamage(itemstack.getItemDamage() + 5);
 		
 		
 	}				
@@ -58,6 +51,18 @@ public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player
 		
 		
 	}
+
+
+public ItemStack onItemRightClick(ItemStack itemstack, World world,
+			EntityPlayer player) {
+		
+			itemstack.setItemDamage(itemstack.getItemDamage() + 10);
+		
+				return itemstack;
+		
+	}
+
+
 	
 	@Override
 	@SideOnly(Side.CLIENT)
