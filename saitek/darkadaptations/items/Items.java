@@ -56,6 +56,7 @@ public class Items {
 	public static Item darkamethyst;
 	public static Item darkironingot;
 	public static Item darkstick;
+	public static Item darkironpowder;
 	
 	
 	public static void init() {		
@@ -83,7 +84,7 @@ public class Items {
 		darkironingot = new ItemDarkIronIngot(ItemInfo.DARKIRONINGOT_ID);
 		darkstick = new ItemDarkstick(ItemInfo.DARKSTICK_ID);
 		darktimekey = new ItemDarktimekey(ItemInfo.DARKTIMEKEY_ID);
-		
+		darkironpowder = new ItemDarkironpowder(ItemInfo.DARKIRONPOWDER_ID);
 		
 		
 	}
@@ -114,6 +115,7 @@ public class Items {
 		LanguageRegistry.addName(darkpickaxe, ItemInfo.DARKPICKAXE_NAME);
 		LanguageRegistry.addName(darkshovel, ItemInfo.DARKSHOVEL_NAME);
 		LanguageRegistry.addName(darktimekey, ItemInfo.DARKTIMEKEY_NAME);
+		LanguageRegistry.addName(darkironpowder, ItemInfo.DARKIRONPOWDER_NAME);
 		
 		
 		

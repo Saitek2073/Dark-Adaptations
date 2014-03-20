@@ -1,4 +1,4 @@
-package saitek.darkadaptations.blocks;
+package saitek.darkadaptations.biomes;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.monster.EntityEnderman;

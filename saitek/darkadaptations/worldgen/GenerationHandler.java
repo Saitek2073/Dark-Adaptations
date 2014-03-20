@@ -43,8 +43,8 @@ public class GenerationHandler implements IWorldGenerator {
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
 		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkIronOre, 5, 35);
-		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkGlowrock, 0, 128);
-		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkAmethystOre, 0, 16);
+		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkGlowrock, 2, 128);
+		generateStandardOre(random, chunkX, chunkZ, world, 20, DarkAmethystOre, 2, 16);
 	
 	}
 

@@ -16,6 +16,14 @@ public class Blocks {
 	public static Block darkcrystal;
 	public static Block blockdarkamethyst;
 	public static Block darkswampgrass;
+	public static Block darkteleporter;
+	
+	
+	
+	
+	
+	
+	
 	
 	//Game Registry 
 	
@@ -32,9 +40,10 @@ public class Blocks {
 		darkblockfiller = new BlockDarkBlockfiller(BlockInfo.DARKBLOCKFILLER_ID);
 		GameRegistry.registerBlock(darkblockfiller, BlockInfo.DARKBLOCKFILLER_KEY);
 		
-		darkswampgrass = new BlockDarkswampgrass(BlockInfo.DARKSWAMPGRASS_ID);
-		GameRegistry.registerBlock(darkswampgrass, BlockInfo.DARKSWAMPGRASS_KEY);
+		darkteleporter = new BlockDarkTeleporter(BlockInfo.DARKTELEPORTER_ID);
+		GameRegistry.registerBlock(darkteleporter, BlockInfo.DARKTELEPORTER_KEY);
 		
+				
 		blockdarkamethyst = new BlockBlockdarkamethyst(BlockInfo.BLOCKDARKAMETHYST_ID);
 		GameRegistry.registerBlock(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_KEY);
 		
@@ -56,7 +65,7 @@ public class Blocks {
 		LanguageRegistry.addName(darkamethystore, BlockInfo.DARKAMETHYSTORE_NAME);
 		LanguageRegistry.addName(darkblockfiller, BlockInfo.DARKBLOCKFILLER_NAME);
 		LanguageRegistry.addName(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_NAME);
-		LanguageRegistry.addName(darkswampgrass, BlockInfo.DARKSWAMPGRASS_NAME);
+		LanguageRegistry.addName(darkteleporter, BlockInfo.DARKTELEPORTER_NAME);
 		
 		
 	}

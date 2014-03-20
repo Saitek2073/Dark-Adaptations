@@ -23,10 +23,10 @@ public class ConfigHandler {
 				
 				
 		   // Dark Armor
-			  ItemInfo.DARKIRONCHESTPLATE_ID = config.getItem(ItemInfo.DARKIRONCHESTPLATE_KEY, ItemInfo.DARKIRONCHESTPLATE_DEFAULT).getInt() - 256;
-			  ItemInfo.DARKIRONHELMET_ID = config.getItem(ItemInfo.DARKIRONHELMET_KEY, ItemInfo.DARKIRONHELMET_DEFAULT).getInt() - 256;
-			  ItemInfo.DARKIRONLEGGINGS_ID = config.getItem(ItemInfo.DARKIRONLEGGINGS_KEY, ItemInfo.DARKIRONLEGGINGS_DEFAULT).getInt() - 256;
-			  ItemInfo.DARKIRONBOOTS_ID = config.getItem(ItemInfo.DARKIRONBOOTS_KEY, ItemInfo.DARKIRONBOOTS_DEFAULT).getInt() - 256;
+			// ItemInfo.DARKIRONCHESTPLATE_ID = config.getItem(ItemInfo.DARKIRONCHESTPLATE_KEY, ItemInfo.DARKIRONCHESTPLATE_DEFAULT).getInt() - 256;
+			 // ItemInfo.DARKIRONHELMET_ID = config.getItem(ItemInfo.DARKIRONHELMET_KEY, ItemInfo.DARKIRONHELMET_DEFAULT).getInt() - 256;
+			 // ItemInfo.DARKIRONLEGGINGS_ID = config.getItem(ItemInfo.DARKIRONLEGGINGS_KEY, ItemInfo.DARKIRONLEGGINGS_DEFAULT).getInt() - 256;
+			 // ItemInfo.DARKIRONBOOTS_ID = config.getItem(ItemInfo.DARKIRONBOOTS_KEY, ItemInfo.DARKIRONBOOTS_DEFAULT).getInt() - 256;
 				
 				
 			//Misc
@@ -39,6 +39,15 @@ public class ConfigHandler {
 				ItemInfo.DARKAXE_ID = config.getItem(ItemInfo.DARKAXE_KEY, ItemInfo.DARKAXE_DEFAULT).getInt() - 256;
 				ItemInfo.DARKSHOVEL_ID = config.getItem(ItemInfo.DARKSHOVEL_KEY, ItemInfo.DARKSHOVEL_DEFAULT).getInt() - 256;
 				ItemInfo.DARKTIMEKEY_ID = config.getItem(ItemInfo.DARKTIMEKEY_KEY, ItemInfo.DARKTIMEKEY_DEFAULT).getInt() - 256;
+				ItemInfo.DARKIRONPOWDER_ID = config.getItem(ItemInfo.DARKIRONPOWDER_KEY, ItemInfo.DARKIRONPOWDER_DEFAULT).getInt() - 256;
+
+
+
+
+
+
+
+
 				
 				
 				
@@ -50,7 +59,9 @@ public class ConfigHandler {
 			BlockInfo.DARKAMETHYSTORE_ID = config.getBlock(BlockInfo.DARKAMETHYSTORE_KEY, BlockInfo.DARKAMETHYSTORE_DEFAULT).getInt();
 			BlockInfo.DARKBLOCKFILLER_ID = config.getBlock(BlockInfo.DARKBLOCKFILLER_KEY, BlockInfo.DARKBLOCKFILLER_DEFAULT).getInt();
 			BlockInfo.BLOCKDARKAMETHYST_ID = config.getBlock(BlockInfo.BLOCKDARKAMETHYST_KEY, BlockInfo.BLOCKDARKAMETHYST_DEFAULT).getInt();
-			BlockInfo.DARKSWAMPGRASS_ID = config.getBlock(BlockInfo.DARKSWAMPGRASS_KEY, BlockInfo.DARKSWAMPGRASS_DEFAULT).getInt();
+			BlockInfo.DARKTELEPORTER_ID = config.getBlock(BlockInfo.DARKTELEPORTER_KEY, BlockInfo.DARKTELEPORTER_DEFAULT).getInt();
+			
+			
 			
 			TileEntityFiller.SPREAD_LEVELS = config.get("filler", "Filler Spread Radius", 75).getInt();
 			

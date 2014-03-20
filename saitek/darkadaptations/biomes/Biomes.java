@@ -1,4 +1,4 @@
-package saitek.darkadaptations.blocks;
+package saitek.darkadaptations.biomes;
 
 import net.minecraft.world.biome.BiomeGenBase;
 import cpw.mods.fml.common.registry.GameRegistry;
