@@ -59,7 +59,7 @@ public class ConfigHandler {
 			BlockInfo.DARKAMETHYSTORE_ID = config.getBlock(BlockInfo.DARKAMETHYSTORE_KEY, BlockInfo.DARKAMETHYSTORE_DEFAULT).getInt();
 			BlockInfo.DARKBLOCKFILLER_ID = config.getBlock(BlockInfo.DARKBLOCKFILLER_KEY, BlockInfo.DARKBLOCKFILLER_DEFAULT).getInt();
 			BlockInfo.BLOCKDARKAMETHYST_ID = config.getBlock(BlockInfo.BLOCKDARKAMETHYST_KEY, BlockInfo.BLOCKDARKAMETHYST_DEFAULT).getInt();
-			BlockInfo.DARKTELEPORTER_ID = config.getBlock(BlockInfo.DARKTELEPORTER_KEY, BlockInfo.DARKTELEPORTER_DEFAULT).getInt();
+			//BlockInfo.DARKTELEPORTER_ID = config.getBlock(BlockInfo.DARKTELEPORTER_KEY, BlockInfo.DARKTELEPORTER_DEFAULT).getInt();
 			
 			
 			

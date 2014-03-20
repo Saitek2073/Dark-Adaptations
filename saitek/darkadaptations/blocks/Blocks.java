@@ -40,8 +40,8 @@ public class Blocks {
 		darkblockfiller = new BlockDarkBlockfiller(BlockInfo.DARKBLOCKFILLER_ID);
 		GameRegistry.registerBlock(darkblockfiller, BlockInfo.DARKBLOCKFILLER_KEY);
 		
-		darkteleporter = new BlockDarkTeleporter(BlockInfo.DARKTELEPORTER_ID);
-		GameRegistry.registerBlock(darkteleporter, BlockInfo.DARKTELEPORTER_KEY);
+		//darkteleporter = new BlockDarkTeleporter(BlockInfo.DARKTELEPORTER_ID);
+		//GameRegistry.registerBlock(darkteleporter, BlockInfo.DARKTELEPORTER_KEY);
 		
 				
 		blockdarkamethyst = new BlockBlockdarkamethyst(BlockInfo.BLOCKDARKAMETHYST_ID);
@@ -65,7 +65,7 @@ public class Blocks {
 		LanguageRegistry.addName(darkamethystore, BlockInfo.DARKAMETHYSTORE_NAME);
 		LanguageRegistry.addName(darkblockfiller, BlockInfo.DARKBLOCKFILLER_NAME);
 		LanguageRegistry.addName(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_NAME);
-		LanguageRegistry.addName(darkteleporter, BlockInfo.DARKTELEPORTER_NAME);
+		//LanguageRegistry.addName(darkteleporter, BlockInfo.DARKTELEPORTER_NAME);
 		
 		
 	}

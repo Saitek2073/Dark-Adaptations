@@ -20,7 +20,7 @@ public class BlockInfo {
 		public static final String DARKGLOWROCK_KEY = "darkglowrock";
 		public static final int DARKGLOWROCK_DEFAULT = 2151;
 		public static final String DARKGLOWROCK_UNLOCALIZED_NAME = "darkglowrock";
-		public static final String DARKGLOWROCK_NAME = "Tarnen Gloeien Rocca ";
+		public static final String DARKGLOWROCK_NAME = "Tarnen Gloeien Rocca";
 		public static final String DARKGLOWROCK_TEXTURE = "DarkGlowrock";
 		
 		//Dark Amethyst Ore		
@@ -38,7 +38,7 @@ public class BlockInfo {
 		public static final String DARKBLOCKFILLER_KEY = "darkblockfiller";
 		public static final int DARKBLOCKFILLER_DEFAULT = 2154;
 		public static final String DARKBLOCKFILLER_UNLOCALIZED_NAME = "Darkblockfiller";
-		public static final String DARKBLOCKFILLER_NAME = " Tarnen Flur Consectur";
+		public static final String DARKBLOCKFILLER_NAME = "Tarnen Flur Consectur";
 		public static final String DARKBLOCKFILLER_TEXTURE = "Darkblockfiller";
 		
 				
@@ -51,13 +51,13 @@ public class BlockInfo {
 		public static final String BLOCKDARKAMETHYST_TEXTURE = "Blockdarkamethyst";					
 		
 		
-		public static int DARKTELEPORTER_ID;
+		/*public static int DARKTELEPORTER_ID;
 		public static final String DARKTELEPORTER_KEY = "darkteleporter";
 		public static final int DARKTELEPORTER_DEFAULT = 2156;
 		public static final String DARKTELEPORTER_UNLOCALIZED_NAME = "Darkteleporter";
-		public static final String DARKTELEPORTER_NAME = "Tarnen Irascens";
+		public static final String DARKTELEPORTER_NAME = "Dark Teleporter Block For Dimension ";
 		public static final String DARKTELEPORTER_TEXTURE = "Darkteleporter";
-		
+		*/
 		
 		
 		

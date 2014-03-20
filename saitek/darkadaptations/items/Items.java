@@ -32,14 +32,14 @@ public class Items {
 	
 	
 	//Dark Armor Material
-	public static EnumArmorMaterial armorDarkiron = EnumHelper.addArmorMaterial("Darkiron" , 40, new int [] {3, 8, 6, 3}, 30);
+	//public static EnumArmorMaterial armorDarkiron = EnumHelper.addArmorMaterial("Darkiron" , 40, new int [] {3, 8, 6, 3}, 30);
 	
 	//Dark Armor Set
-	public static EnumArmorMaterial armorDarkironchestplate = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
+	/*public static EnumArmorMaterial armorDarkironchestplate = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
 	public static EnumArmorMaterial armorDarkironboots = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
 	public static EnumArmorMaterial armorDarkironleggings = EnumHelper.addArmorMaterial("Darkiron", 66, new int [] {6, 9, 9, 6}, 30);
 	public static EnumArmorMaterial armorDarkironhelmet = EnumHelper.addArmorMaterial("Darkiron", 60, new int [] {6, 9, 9, 9}, 30);
-	
+	*/
 	//Tool Material
 	public static EnumToolMaterial toolDark = EnumHelper.addToolMaterial("DARK", 3, 1500, 6.0F, 7.0F, 30);
 	
@@ -121,7 +121,7 @@ public class Items {
 		
 		
 		
-		RenderingRegistry.addNewArmourRendererPrefix("Dark");
+		//RenderingRegistry.addNewArmourRendererPrefix("Dark");
      }
 	
 	public static void registerRecipes() {
