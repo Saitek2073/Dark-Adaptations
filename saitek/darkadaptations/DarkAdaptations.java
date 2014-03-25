@@ -1,7 +1,6 @@
 package saitek.darkadaptations;
 
 import net.minecraft.world.biome.BiomeGenBase;
-import net.minecraftforge.common.DimensionManager;
 import saitek.darkadaptations.biomes.Biomes;
 import saitek.darkadaptations.blocks.Blocks;
 import saitek.darkadaptations.creativetabs.ItemTab;
@@ -26,16 +25,18 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @NetworkMod(channels = {ModInfo.CHANNEL}, clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
 public class DarkAdaptations {
 	
-	public static final int dimensionIdDarkVoid = 2;
+	
 
 	@Instance(ModInfo.MODID)
 	public static DarkAdaptations instance;
+	
+	
 	
 	@SidedProxy(clientSide = "saitek.darkadaptations.proxy.ClientProxy", serverSide = "saitek.darkadaptations.proxy.CommonProxy")	
 	
 	public static CommonProxy proxy;
 
-	public static BiomeGenBase biomesTarnen;
+	
 	
 	
 	
@@ -46,15 +47,14 @@ public class DarkAdaptations {
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 		Items.init();
 		Blocks.init();
-		Biomes.init();
+		
 		
 		proxy.initSounds();
 		proxy.initRenderers();
 		
 		
 				
-		
-		
+	
 		
 		GameRegistry.registerPlayerTracker(new UpdatePlayerTracker());
 		new UpdateChecker();
@@ -62,6 +62,7 @@ public class DarkAdaptations {
 
 	@EventHandler
 	public void Init(FMLInitializationEvent event) {
+		
 		Items.addNames();
 		Blocks.addNames();
 		
@@ -70,17 +71,19 @@ public class DarkAdaptations {
 		ItemTab.initTabNames();
 		ToolTab.initTabNames();
 		
-		DimensionManager.registerProviderType(dimensionIdDarkVoid, WorldProviderTutorial.class, false);
-		DimensionManager.registerDimension(dimensionIdDarkVoid, dimensionIdDarkVoid);
+	
+		
 
 		
 		
 		Items.registerRecipes();
 		Blocks.registerRecipes();
 		Blocks.registerTileEntities();
+				
 		
 		new GenerationHandler();
 		
+		Biomes.init();	
 		//Entities.init();
 		
 	}

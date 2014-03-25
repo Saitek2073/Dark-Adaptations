@@ -3,7 +3,7 @@ package saitek.darkadaptations;
 public class ModInfo {
 	public static final String MODID = "DarkAdaptations";
 	public static final String NAME = "Dark Adaptations";
-	public static final String VERSION = "1.1.2";
+	public static final String VERSION = "1.1.3";
 	public static final String CHANNEL = "darkadaptations";
 	
 	public static final int CURRENTBUILD = 99999;

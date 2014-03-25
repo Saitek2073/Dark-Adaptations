@@ -2,6 +2,8 @@ package saitek.darkadaptations.blocks;
 
 import java.util.List;
 
+import com.google.common.collect.SetMultimap;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
@@ -15,7 +17,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class BlockDarkIronOre extends Block {
 	
 	public BlockDarkIronOre(int id) {
-		super(id, Material.rock);
+		super(id, Material.rock);		
 		setCreativeTab(OreTab.tabOre);
 		setLightValue(0.2F);
 		setHardness(4F);

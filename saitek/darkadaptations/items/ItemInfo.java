@@ -132,12 +132,7 @@ public class ItemInfo {
 		public static final String DARKIRONBOOTS_NAME = "Dark Iron Boots";
 		public static final String DARKIRONBOOTS_ICON = "Darkironboots";
 		*/
-        public static int DARKTIMEKEY_ID;
-		public static final String DARKTIMEKEY_KEY = "darktimekey";
-		public static final int DARKTIMEKEY_DEFAULT = 31070;
-		public static final String DARKTIMEKEY_UNLOCALIZED_NAME = "darktimekey";
-		public static final String DARKTIMEKEY_NAME = "Tarnen Clavis";
-		public static final String DARKTIMEKEY_ICON = "Darktimekey";		
+       		
 		
 		
 		public static int DARKIRONPOWDER_ID;

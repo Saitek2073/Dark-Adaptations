@@ -1,6 +1,7 @@
 package saitek.darkadaptations.biomes;
 
 import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraftforge.common.BiomeManager;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Biomes {
@@ -23,12 +24,9 @@ public class Biomes {
 //Game Registry
 	public static void init() {	
 		
-		biomeTarnen = new BiomeGenTarnen(25).setBiomeName("Tarnen").func_76733_a(9154376).setTemperatureRainfall(2.0F, 0.0F).setMinMaxHeight(0.3F, 0.8F);		
+		biomeTarnen = new BiomeGenTarnen(30).setColor(522674).setBiomeName("Tarnen Quag").func_76733_a(9154376).setMinMaxHeight(0.1F, 0.1F).setTemperatureRainfall(0.8F, 0.9F);		
 		GameRegistry.addBiome(biomeTarnen);
-		
-		
-		
-		
+		BiomeManager.addVillageBiome(biomeTarnen, true);	
 		
 		
 	}

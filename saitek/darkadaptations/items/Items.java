@@ -22,7 +22,7 @@ public class Items {
 	public static Item darkpickaxe;
 	public static Item darkaxe;
 	public static Item darkshovel;
-	public static Item darktimekey;
+	
 	
 	
 	//public static Item darkironchestplate;
@@ -83,7 +83,7 @@ public class Items {
 		darkdust = new ItemDarkdust(ItemInfo.DARKDUST_ID);
 		darkironingot = new ItemDarkIronIngot(ItemInfo.DARKIRONINGOT_ID);
 		darkstick = new ItemDarkstick(ItemInfo.DARKSTICK_ID);
-		darktimekey = new ItemDarktimekey(ItemInfo.DARKTIMEKEY_ID);
+		
 		darkironpowder = new ItemDarkironpowder(ItemInfo.DARKIRONPOWDER_ID);
 		
 		
@@ -114,7 +114,7 @@ public class Items {
 		LanguageRegistry.addName(darkaxe, ItemInfo.DARKAXE_NAME);
 		LanguageRegistry.addName(darkpickaxe, ItemInfo.DARKPICKAXE_NAME);
 		LanguageRegistry.addName(darkshovel, ItemInfo.DARKSHOVEL_NAME);
-		LanguageRegistry.addName(darktimekey, ItemInfo.DARKTIMEKEY_NAME);
+		
 		LanguageRegistry.addName(darkironpowder, ItemInfo.DARKIRONPOWDER_NAME);
 		
 		
@@ -129,6 +129,7 @@ public class Items {
 		//Ore dictionary
 		OreDictionary.registerOre("DarkIronIngot", darkironingot);
 		OreDictionary.registerOre("DarkAmethyst", darkamethyst);
+		OreDictionary.registerOre("DarkIronpowder", darkironpowder);
 		
 		//Dark Great Wand
 		GameRegistry.addRecipe(new ItemStack(darkgreatwand), new Object[] {

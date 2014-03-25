@@ -10,7 +10,7 @@ public class BlockInfo {
 		//Dark Iron Ore
 		public static int DARKIRONORE_ID;
 		public static final String DARKIRONORE_KEY = "darkironore";
-		public static final int DARKIRONORE_DEFAULT = 2150;
+		public static final int DARKIRONORE_DEFAULT = 3000;
 		public static final String DARKIRONORE_UNLOCALIZED_NAME = "darkironore";
 		public static final String DARKIRONORE_NAME = "Tarnen Eisen Aes";
 		public static final String DARKIRONORE_TEXTURE = "DarkIronOre";
@@ -18,7 +18,7 @@ public class BlockInfo {
 		//Dark Glow Rock
 		public static int DARKGLOWROCK_ID;
 		public static final String DARKGLOWROCK_KEY = "darkglowrock";
-		public static final int DARKGLOWROCK_DEFAULT = 2151;
+		public static final int DARKGLOWROCK_DEFAULT = 3001;
 		public static final String DARKGLOWROCK_UNLOCALIZED_NAME = "darkglowrock";
 		public static final String DARKGLOWROCK_NAME = "Tarnen Gloeien Rocca";
 		public static final String DARKGLOWROCK_TEXTURE = "DarkGlowrock";
@@ -27,7 +27,7 @@ public class BlockInfo {
 		
 		public static int DARKAMETHYSTORE_ID;
 		public static final String DARKAMETHYSTORE_KEY = "darkamethystore";
-		public static final int DARKAMETHYSTORE_DEFAULT = 2153;
+		public static final int DARKAMETHYSTORE_DEFAULT = 3002;
 		public static final String DARKAMETHYSTORE_UNLOCALIZED_NAME = "Darkamethystore";
 		public static final String DARKAMETHYSTORE_NAME = "Tarnen Amethysus Aes";
 		public static final String DARKAMETHYSTORE_TEXTURE = "DarkAmethystore";
@@ -36,7 +36,7 @@ public class BlockInfo {
 		//Dark Block Filler
 		public static int DARKBLOCKFILLER_ID;
 		public static final String DARKBLOCKFILLER_KEY = "darkblockfiller";
-		public static final int DARKBLOCKFILLER_DEFAULT = 2154;
+		public static final int DARKBLOCKFILLER_DEFAULT = 3003;
 		public static final String DARKBLOCKFILLER_UNLOCALIZED_NAME = "Darkblockfiller";
 		public static final String DARKBLOCKFILLER_NAME = "Tarnen Flur Consectur";
 		public static final String DARKBLOCKFILLER_TEXTURE = "Darkblockfiller";
@@ -45,31 +45,40 @@ public class BlockInfo {
 		//Block of Dark Amethyst
 		public static int BLOCKDARKAMETHYST_ID;
 		public static final String BLOCKDARKAMETHYST_KEY = "blockdarkamethyst";
-		public static final int BLOCKDARKAMETHYST_DEFAULT = 2155;
+		public static final int BLOCKDARKAMETHYST_DEFAULT = 3004;
 		public static final String BLOCKDARKAMETHYST_UNLOCALIZED_NAME = "Blockdarkamethyst";
 		public static final String BLOCKDARKAMETHYST_NAME = " Tarnen Amethysus Kubos";
 		public static final String BLOCKDARKAMETHYST_TEXTURE = "Blockdarkamethyst";					
 		
 		
-		/*public static int DARKTELEPORTER_ID;
-		public static final String DARKTELEPORTER_KEY = "darkteleporter";
-		public static final int DARKTELEPORTER_DEFAULT = 2156;
-		public static final String DARKTELEPORTER_UNLOCALIZED_NAME = "Darkteleporter";
-		public static final String DARKTELEPORTER_NAME = "Dark Teleporter Block For Dimension ";
-		public static final String DARKTELEPORTER_TEXTURE = "Darkteleporter";
-		*/
 		
 		
 		
-		//Dark Iron Furnace
+		//Dark Furnace
+		
+	/*	public static int DARKFURNACEIDLE_ID;
+		public static final String DARKFURNACEIDLE_KEY = "darkfurnaceidle";
+		public static final int DARKFURNACEIDLE_DEFAULT = 12156;
+		public static final String DARKFURNACEIDLE_UNLOCALIZED_NAME = "Darkfurnaceidle";
+		public static final String DARKFURNACEIDLE_NAME = "Dark Furnace";
+		public static final String DARKFURNACEIDLE_TEXTURE = "Darkfurnaceidle";
 		
 		
 		
+		public static int DARKFURNACEACTIVE_ID;
+		public static final String DARKFURNACEACTIVE_KEY = "darkfurnaceactive";
+		public static final int DARKFURNACEACTIVE_DEFAULT = 12157;
+		public static final String DARKFURNACEACTIVE_UNLOCALIZED_NAME = "Darkfurnaceactive";
+		public static final String DARKFURNACEACTIVE_NAME = "Dark Furnace";
+		public static final String DARKFURNACEACTIVE_TEXTURE = "Darkfurnaceactive";
 		
-		
-		
-		
-		
+		public static int DARKFURNACE_ID;
+		public static final String DARKFURNACE_KEY = "darkfurnace";
+		public static final int DARKFURNACE_DEFAULT = 12158;
+		public static final String DARKFURNACE_UNLOCALIZED_NAME = "Darkfurnace";
+		public static final String DARKFURNACE_NAME = "Dark Furnace";
+		public static final String DARKFURNACE_TEXTURE = "Darkfurnace";
+	*/	
 		
 		
 		

@@ -15,11 +15,9 @@ public class Blocks {
 	public static Block darkblockfiller;
 	public static Block darkcrystal;
 	public static Block blockdarkamethyst;
-	public static Block darkswampgrass;
-	public static Block darkteleporter;
-	
-	
-	
+	//public static Block darkfurnaceidle;
+	//public static Block darkfurnaceactive;
+	//public static Block darkfurnace;
 	
 	
 	
@@ -39,17 +37,19 @@ public class Blocks {
 		
 		darkblockfiller = new BlockDarkBlockfiller(BlockInfo.DARKBLOCKFILLER_ID);
 		GameRegistry.registerBlock(darkblockfiller, BlockInfo.DARKBLOCKFILLER_KEY);
-		
-		//darkteleporter = new BlockDarkTeleporter(BlockInfo.DARKTELEPORTER_ID);
-		//GameRegistry.registerBlock(darkteleporter, BlockInfo.DARKTELEPORTER_KEY);
-		
-				
+							
 		blockdarkamethyst = new BlockBlockdarkamethyst(BlockInfo.BLOCKDARKAMETHYST_ID);
 		GameRegistry.registerBlock(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_KEY);
 		
+	/*	darkfurnaceidle = new BlockDarkfurnaceIdle(BlockInfo.DARKFURNACEIDLE_ID);
+		GameRegistry.registerBlock(darkfurnaceidle, BlockInfo.DARKFURNACEIDLE_KEY);
 		
-
+		darkfurnaceactive = new BlockDarkfurnaceActive(BlockInfo.DARKFURNACEACTIVE_ID);
+		GameRegistry.registerBlock(darkfurnaceactive, BlockInfo.DARKFURNACEACTIVE_KEY);
 		
+		darkfurnace = new BlockDarkfurnace(BlockInfo.DARKFURNACE_ID);
+		GameRegistry.registerBlock(darkfurnace, BlockInfo.DARKFURNACE_KEY);
+		*/
 		
 		
 		
@@ -65,9 +65,10 @@ public class Blocks {
 		LanguageRegistry.addName(darkamethystore, BlockInfo.DARKAMETHYSTORE_NAME);
 		LanguageRegistry.addName(darkblockfiller, BlockInfo.DARKBLOCKFILLER_NAME);
 		LanguageRegistry.addName(blockdarkamethyst, BlockInfo.BLOCKDARKAMETHYST_NAME);
-		//LanguageRegistry.addName(darkteleporter, BlockInfo.DARKTELEPORTER_NAME);
-		
-		
+		/*LanguageRegistry.addName(darkfurnaceidle, BlockInfo.DARKFURNACEIDLE_NAME);
+		LanguageRegistry.addName(darkfurnaceactive, BlockInfo.DARKFURNACEACTIVE_NAME);
+		LanguageRegistry.addName(darkfurnace, BlockInfo.DARKFURNACE_NAME);
+		*/
 	}
 	
 	public static void registerTileEntities() {

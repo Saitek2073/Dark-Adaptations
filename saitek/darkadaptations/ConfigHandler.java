@@ -38,7 +38,6 @@ public class ConfigHandler {
 				ItemInfo.DARKPICKAXE_ID = config.getItem(ItemInfo.DARKPICKAXE_KEY, ItemInfo.DARKPICKAXE_DEFAULT).getInt() - 256;
 				ItemInfo.DARKAXE_ID = config.getItem(ItemInfo.DARKAXE_KEY, ItemInfo.DARKAXE_DEFAULT).getInt() - 256;
 				ItemInfo.DARKSHOVEL_ID = config.getItem(ItemInfo.DARKSHOVEL_KEY, ItemInfo.DARKSHOVEL_DEFAULT).getInt() - 256;
-				ItemInfo.DARKTIMEKEY_ID = config.getItem(ItemInfo.DARKTIMEKEY_KEY, ItemInfo.DARKTIMEKEY_DEFAULT).getInt() - 256;
 				ItemInfo.DARKIRONPOWDER_ID = config.getItem(ItemInfo.DARKIRONPOWDER_KEY, ItemInfo.DARKIRONPOWDER_DEFAULT).getInt() - 256;
 
 
@@ -59,7 +58,11 @@ public class ConfigHandler {
 			BlockInfo.DARKAMETHYSTORE_ID = config.getBlock(BlockInfo.DARKAMETHYSTORE_KEY, BlockInfo.DARKAMETHYSTORE_DEFAULT).getInt();
 			BlockInfo.DARKBLOCKFILLER_ID = config.getBlock(BlockInfo.DARKBLOCKFILLER_KEY, BlockInfo.DARKBLOCKFILLER_DEFAULT).getInt();
 			BlockInfo.BLOCKDARKAMETHYST_ID = config.getBlock(BlockInfo.BLOCKDARKAMETHYST_KEY, BlockInfo.BLOCKDARKAMETHYST_DEFAULT).getInt();
-			//BlockInfo.DARKTELEPORTER_ID = config.getBlock(BlockInfo.DARKTELEPORTER_KEY, BlockInfo.DARKTELEPORTER_DEFAULT).getInt();
+		//	BlockInfo.DARKFURNACEIDLE_ID = config.getBlock(BlockInfo.DARKFURNACEIDLE_KEY, BlockInfo.DARKFURNACEIDLE_DEFAULT).getInt();
+		//	BlockInfo.DARKFURNACEACTIVE_ID = config.getBlock(BlockInfo.DARKFURNACEACTIVE_KEY, BlockInfo.DARKFURNACEACTIVE_DEFAULT).getInt();
+		//	BlockInfo.DARKFURNACE_ID = config.getBlock(BlockInfo.DARKFURNACE_KEY, BlockInfo.DARKFURNACE_DEFAULT).getInt();
+			
+			
 			
 			
 			
