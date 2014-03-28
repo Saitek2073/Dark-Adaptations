@@ -12,7 +12,7 @@ public class BlockInfo {
 		public static final String DARKIRONORE_KEY = "darkironore";
 		public static final int DARKIRONORE_DEFAULT = 3000;
 		public static final String DARKIRONORE_UNLOCALIZED_NAME = "darkironore";
-		public static final String DARKIRONORE_NAME = "Tarnen Eisen Aes";
+		public static final String DARKIRONORE_NAME = "Tarnen Iron Ore";
 		public static final String DARKIRONORE_TEXTURE = "DarkIronOre";
 		
 		//Dark Glow Rock
@@ -20,7 +20,7 @@ public class BlockInfo {
 		public static final String DARKGLOWROCK_KEY = "darkglowrock";
 		public static final int DARKGLOWROCK_DEFAULT = 3001;
 		public static final String DARKGLOWROCK_UNLOCALIZED_NAME = "darkglowrock";
-		public static final String DARKGLOWROCK_NAME = "Tarnen Gloeien Rocca";
+		public static final String DARKGLOWROCK_NAME = "Tarnen Glowrock";
 		public static final String DARKGLOWROCK_TEXTURE = "DarkGlowrock";
 		
 		//Dark Amethyst Ore		
@@ -29,7 +29,7 @@ public class BlockInfo {
 		public static final String DARKAMETHYSTORE_KEY = "darkamethystore";
 		public static final int DARKAMETHYSTORE_DEFAULT = 3002;
 		public static final String DARKAMETHYSTORE_UNLOCALIZED_NAME = "Darkamethystore";
-		public static final String DARKAMETHYSTORE_NAME = "Tarnen Amethysus Aes";
+		public static final String DARKAMETHYSTORE_NAME = "Tarnen Amethystore";
 		public static final String DARKAMETHYSTORE_TEXTURE = "DarkAmethystore";
 		
 		
@@ -38,7 +38,7 @@ public class BlockInfo {
 		public static final String DARKBLOCKFILLER_KEY = "darkblockfiller";
 		public static final int DARKBLOCKFILLER_DEFAULT = 3003;
 		public static final String DARKBLOCKFILLER_UNLOCALIZED_NAME = "Darkblockfiller";
-		public static final String DARKBLOCKFILLER_NAME = "Tarnen Flur Consectur";
+		public static final String DARKBLOCKFILLER_NAME = "Tarnen Floor Constructor";
 		public static final String DARKBLOCKFILLER_TEXTURE = "Darkblockfiller";
 		
 				
@@ -47,7 +47,7 @@ public class BlockInfo {
 		public static final String BLOCKDARKAMETHYST_KEY = "blockdarkamethyst";
 		public static final int BLOCKDARKAMETHYST_DEFAULT = 3004;
 		public static final String BLOCKDARKAMETHYST_UNLOCALIZED_NAME = "Blockdarkamethyst";
-		public static final String BLOCKDARKAMETHYST_NAME = " Tarnen Amethysus Kubos";
+		public static final String BLOCKDARKAMETHYST_NAME = " Tarnen Block of Amethyst";
 		public static final String BLOCKDARKAMETHYST_TEXTURE = "Blockdarkamethyst";					
 		
 		

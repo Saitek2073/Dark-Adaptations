@@ -17,7 +17,7 @@ public class ItemInfo {
 		public static final String DARKWAND_KEY = "DarkWand";
 		public static final int DARKWAND_DEFAULT = 31055;
 		public static final String DARKWAND_UNLOCALIZED_NAME ="darkwand";
-		public static final String DARKWAND_NAME = "Tarnen Tekhne ";
+		public static final String DARKWAND_NAME = "Tarnen Wand ";
 		public static final String DARKWAND_ICON = "DarkWand";
 	
 	//Dark Great Wand
@@ -25,7 +25,7 @@ public class ItemInfo {
 		public static final String DARKGREATWAND_KEY = "DarkGreatWand";
 		public static final int DARKGREATWAND_DEFAULT = 31056;
 		public static final String DARKGREATWAND_UNLOCALIZED_NAME = "darkgreatwand";
-		public static final String DARKGREATWAND_NAME = "Tarnen Groot Tekhne";
+		public static final String DARKGREATWAND_NAME = "Tarnen Great Wand";
 		public static final String DARKGREATWAND_ICON = "DarkGreatwand";
 		public static final String DARKGREATWANDCHARGED_ICON = "DarkGreatwandCharged";
 	
@@ -34,7 +34,7 @@ public class ItemInfo {
 		public static final String DARKGREATSWORD_KEY = "DarkGreatsword";
 		public static final int DARKGREATSWORD_DEFAULT = 31057;
 		public static final String DARKGREATSWORD_UNLOCALIZED_NAME = "darkgreatsword";
-		public static final String DARKGREATSWORD_NAME = "Tarnen Groot Sweord";
+		public static final String DARKGREATSWORD_NAME = "Tarnen Great Sword";
 		public static final String DARKGREATSWORD_ICON = "DarkGreatsword";
 		
 	//Dark Amethyst
@@ -42,7 +42,7 @@ public class ItemInfo {
 		public static final String DARKAMETHYST_KEY = "darkamethyst";
 		public static final int DARKAMETHYST_DEFAULT = 31058;
 		public static final String DARKAMETHYST_UNLOCALIZED_NAME = "darkamethyst";
-		public static final String DARKAMETHYST_NAME = "Tarnen Amethysus";
+		public static final String DARKAMETHYST_NAME = "Tarnen Amethyst";
 		public static final String DARKAMETHYST_ICON = "Darkamethyst";		
 	
 	//Darkdust
@@ -50,7 +50,7 @@ public class ItemInfo {
 		public static final String DARKDUST_KEY = "darkdust";
 		public static final int DARKDUST_DEFAULT = 31059;
 		public static final String DARKDUST_UNLOCALIZED_NAME = "darkdust";
-		public static final String DARKDUST_NAME = "Tarnen Afa";
+		public static final String DARKDUST_NAME = "Tarnen Dust";
 		public static final String DARKDUST_ICON = "Darkdust";		
 		
 	//Dark Iron Ingot
@@ -58,7 +58,7 @@ public class ItemInfo {
 		public static final String DARKIRONINGOT_KEY = "darkironingot";
 		public static final int DARKIRONINGOT_DEFAULT = 31060;
 		public static final String DARKIRONINGOT_UNLOCALIZED_NAME = "darkironingot";
-		public static final String DARKIRONINGOT_NAME = "Tarnen Eisen Goten";
+		public static final String DARKIRONINGOT_NAME = "Tarnen Iron Ingot";
 		public static final String DARKIRONINGOT_ICON = "DarkIroningot";
 		
 	//Dark Stick
@@ -66,7 +66,7 @@ public class ItemInfo {
 		public static final String DARKSTICK_KEY = "darkstick";
 		public static final int DARKSTICK_DEFAULT = 31061;
 		public static final String DARKSTICK_UNLOCALIZED_NAME = "darkstick";
-		public static final String DARKSTICK_NAME = "Tarnen Stecken";
+		public static final String DARKSTICK_NAME = "Tarnen Stick";
 		public static final String DARKSTICK_ICON = "Darkstick";
 		
 	//Darksword
@@ -74,7 +74,7 @@ public class ItemInfo {
 		public static final String DARKSWORD_KEY = "darksword";
 		public static final int DARKSWORD_DEFAULT = 31062;
 		public static final String DARKSWORD_UNLOCALIZED_NAME = "darksword";
-		public static final String DARKSWORD_NAME = "Tarnen Sweord";
+		public static final String DARKSWORD_NAME = "Tarnen Sword";
 		public static final String DARKSWORD_ICON = "Darksword";
 		
 	//Dark Pickaxe
@@ -82,7 +82,7 @@ public class ItemInfo {
 		public static final String DARKPICKAXE_KEY = "darkpickaxe";
 		public static final int DARKPICKAXE_DEFAULT = 31063;
 		public static final String DARKPICKAXE_UNLOCALIZED_NAME = "darkpickaxe";
-		public static final String DARKPICKAXE_NAME = "Tarnen Picois ";
+		public static final String DARKPICKAXE_NAME = "Tarnen Picaxe ";
 		public static final String DARKPICKAXE_ICON = "Darkpickaxe";
 		
 	//Dark Axe
@@ -90,7 +90,7 @@ public class ItemInfo {
 		public static final String DARKAXE_KEY = "darkaxe";
 		public static final int DARKAXE_DEFAULT = 31064;
 		public static final String DARKAXE_UNLOCALIZED_NAME = "darkaxe";
-		public static final String DARKAXE_NAME = "Tarnen Axt";
+		public static final String DARKAXE_NAME = "Tarnen Axe";
 		public static final String DARKAXE_ICON = "Darkaxe";
 		
 	//Dark Shovel
@@ -98,7 +98,7 @@ public class ItemInfo {
 		public static final String DARKSHOVEL_KEY = "darkshovel";
 		public static final int DARKSHOVEL_DEFAULT = 31065;
 		public static final String DARKSHOVEL_UNLOCALIZED_NAME = "darkshovel";
-		public static final String DARKSHOVEL_NAME = "Tarnen Scofl";
+		public static final String DARKSHOVEL_NAME = "Tarnen Shovel";
 		public static final String DARKSHOVEL_ICON = "Darkshovel";
 		
 	//Dark Armor
@@ -139,7 +139,7 @@ public class ItemInfo {
 		public static final String DARKIRONPOWDER_KEY = "darkironpowder";
 		public static final int DARKIRONPOWDER_DEFAULT = 31071;
 		public static final String DARKIRONPOWDER_UNLOCALIZED_NAME = "darkironpowder";
-		public static final String DARKIRONPOWDER_NAME = "Tarnen Feris Pourdre";
+		public static final String DARKIRONPOWDER_NAME = "Tarnen Iron Powder";
 		public static final String DARKIRONPOWDER_ICON = "Darkironpowder";
 	
 }
